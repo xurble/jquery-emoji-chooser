@@ -92,13 +92,6 @@ $.fn.emojiPicker.emojis = [
     "category": "people"
   },
   {
-    "name": "relaxed",
-    "unicode": {"apple":"263A", "google":"263A", "twitter":"263A"},
-    "shortcode": "relaxed",
-    "description": "WHITE SMILING FACE",
-    "category": "people"
-  },
-  {
     "name": "yum",
     "unicode": {"apple":"1F60B", "google":"1F60B", "twitter":"1F60B"},
     "shortcode": "yum",
@@ -301,13 +294,13 @@ $.fn.emojiPicker.emojis = [
     "description": "slightly frowning face",
     "category": "people"
   },
-  {
+/*  {
     "name": "white_frowning_face",
     "unicode": {"apple":"2639", "google":"2639", "twitter":"2639"},
     "shortcode": "white_frowning_face",
     "description": "white frowning face",
     "category": "people"
-  },
+  },*/
   {
     "name": "persevere",
     "unicode": {"apple":"1F623", "google":"1F623", "twitter":"1F623"},

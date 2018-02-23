@@ -1,14 +1,15 @@
 {
-  "name": "jquery-emoji-picker",
-  "version": "0.2.2",
-  "homepage": "https://github.com/wedgies/jquery-emoji-picker",
+  "name": "jquery-emoji-chooser",
+  "version": "1.0.0",
+  "homepage": "https://github.com/xurble/jquery-emoji-chooser",
   "authors": [
     "Wedgies, Inc"
   ],
   "keywords": [
     "emoji",
     "jquery",
-    "picker"
+    "picker",
+    "chooser",
   ],
   "license": "ISC",
   "ignore": [

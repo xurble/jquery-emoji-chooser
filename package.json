@@ -1,22 +1,23 @@
 {
-  "name": "jquery-emoji-picker",
-  "version": "0.2.2",
-  "description": "Add an emoji picker to any text field",
+  "name": "jquery-emoji-chooser",
+  "version": "1.0.0",
+  "description": "Add an emoji chooser to any text field",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wedgies/jquery-emoji-picker.git"
+    "url": "https://github.com/xurble/jquery-emoji-chooser.git"
   },
   "keywords": [
     "emoji",
     "jquery",
-    "picker"
+    "picker",
+    "chooser"
   ],
-  "author": "Wedgies, Inc",
+  "author": "Gareth Simpson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wedgies/jquery-emoji-picker/issues"
+    "url": "https://github.com/xurble/jquery-emoji-chooser/issues"
   },
-  "homepage": "https://github.com/wedgies/jquery-emoji-picker",
+  "homepage": "https://github.com/xurble/jquery-emoji-chooser",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-bump": "^0.3.0",
