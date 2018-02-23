@@ -184,7 +184,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "sunglasses",
-    "unicode": {"apple":"", "google":"", "twitter":"1F60E"},
+    "unicode": {"apple":"1F60E", "google":"", "twitter":"1F60E"},
     "shortcode": "sunglasses",
     "description": "SMILING FACE WITH SUNGLASSES",
     "category": "people"
@@ -663,7 +663,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "v",
-    "unicode": {"apple":"270C", "google":"270C", "twitter":"270C"},
+    "unicode": {"apple":"270C-FE0F", "google":"270C", "twitter":"270C"},
     "shortcode": "v",
     "description": "VICTORY HAND",
     "category": "people"
@@ -705,7 +705,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "point_up",
-    "unicode": {"apple":"261D", "google":"261D", "twitter":"261D"},
+    "unicode": {"apple":"261D-FE0F", "google":"261D", "twitter":"261D"},
     "shortcode": "point_up",
     "description": "WHITE UP POINTING INDEX",
     "category": "people"
@@ -770,7 +770,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "writing_hand",
-    "unicode": {"apple":"270D", "google":"270D", "twitter":"270D"},
+    "unicode": {"apple":"270D-FE0F", "google":"270D", "twitter":"270D"},
     "shortcode": "writing_hand",
     "description": "Writing Hand",
     "category": "people"
@@ -819,7 +819,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "eyes",
-    "unicode": {"apple":"", "google":"", "twitter":"1F440"},
+    "unicode": {"apple":"1F440", "google":"", "twitter":"1F440"},
     "shortcode": "eyes",
     "description": "EYES",
     "category": "people"
@@ -2214,7 +2214,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "new_moon_with_face",
-    "unicode": {"apple":"", "google":"1F31A", "twitter":"1F31A"},
+    "unicode": {"apple":"1F31A", "google":"1F31A", "twitter":"1F31A"},
     "shortcode": "new_moon_with_face",
     "description": "NEW MOON WITH FACE",
     "category": "nature"
@@ -2292,7 +2292,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "sunny",
-    "unicode": {"apple":"2600", "google":"2600", "twitter":"2600"},
+    "unicode": {"apple":"2600-FE0F", "google":"2600", "twitter":"2600"},
     "shortcode": "sunny",
     "description": "BLACK SUN WITH RAYS",
     "category": "nature"
@@ -2327,7 +2327,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "cloud",
-    "unicode": {"apple":"2601", "google":"2601", "twitter":"2601"},
+    "unicode": {"apple":"2601-FE0F", "google":"2601", "twitter":"2601"},
     "shortcode": "cloud",
     "description": "CLOUD",
     "category": "nature"
@@ -2376,7 +2376,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "snowflake",
-    "unicode": {"apple":"2744", "google":"2744", "twitter":"2744"},
+    "unicode": {"apple":"2744-FE0F", "google":"2744", "twitter":"2744"},
     "shortcode": "snowflake",
     "description": "SNOWFLAKE",
     "category": "nature"
@@ -2943,7 +2943,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "baseball",
-    "unicode": {"apple":"26BE", "google":"26BE", "twitter":"26BE"},
+    "unicode": {"apple":"26BE-FE0F", "google":"26BE", "twitter":"26BE"},
     "shortcode": "baseball",
     "description": "BASEBALL",
     "category": "activity"
@@ -3580,7 +3580,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "airplane",
-    "unicode": {"apple":"2708", "google":"2708", "twitter":"2708"},
+    "unicode": {"apple":"2708-FE0F", "google":"2708", "twitter":"2708"},
     "shortcode": "airplane",
     "description": "AIRPLANE",
     "category": "travel"
@@ -4896,7 +4896,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "email",
-    "unicode": {"apple":"2709", "google":"2709", "twitter":"2709"},
+    "unicode": {"apple":"2709-FE0F", "google":"2709", "twitter":"2709"},
     "shortcode": "email",
     "description": "ENVELOPE",
     "category": "object"
@@ -5372,7 +5372,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "heart",
-    "unicode": {"apple":"2764", "google":"2764", "twitter":"2764"},
+    "unicode": {"apple":"2764-FE0F", "google":"2764", "twitter":"2764"},
     "shortcode": "heart",
     "description": "HEAVY BLACK HEART",
     "category": "symbol"
@@ -5414,7 +5414,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "heavy_heart_exclamation_mark_ornament",
-    "unicode": {"apple":"2763", "google":"2763", "twitter":"2763"},
+    "unicode": {"apple":"2763-FE0F", "google":"2763", "twitter":"2763"},
     "shortcode": "heavy_heart_exclamation_mark_ornament",
     "description": "HEAVY HEART EXCLAMATION MARK ORNAMENT",
     "category": "symbol"
@@ -5484,7 +5484,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "latin_cross",
-    "unicode": {"apple":"271D", "google":"271D", "twitter":"271D"},
+    "unicode": {"apple":"271D-FE0F", "google":"271D", "twitter":"271D"},
     "shortcode": "latin_cross",
     "description": "LATIN CROSS",
     "category": "symbol"
@@ -5512,7 +5512,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "star_of_david",
-    "unicode": {"apple":"2721", "google":"2721", "twitter":"2721"},
+    "unicode": {"apple":"2721-FE0F", "google":"2721", "twitter":"2721"},
     "shortcode": "star_of_david",
     "description": "STAR OF DAVID",
     "category": "symbol"
@@ -5533,7 +5533,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "yin_yang",
-    "unicode": {"apple":"262F", "google":"262F", "twitter":"262F"},
+    "unicode": {"apple":"262F-FE0F", "google":"262F", "twitter":"262F"},
     "shortcode": "yin_yang",
     "description": "YIN YANG",
     "category": "symbol"
@@ -5659,14 +5659,14 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "u7a7a",
-    "unicode": {"apple":"1F233", "google":"1F233", "twitter":"1F233"},
+    "unicode": {"apple":"1F233-FE0F", "google":"1F233", "twitter":"1F233"},
     "shortcode": "u7a7a",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7A7A",
     "category": "symbol"
   },
   {
     "name": "u5272",
-    "unicode": {"apple":"1F239", "google":"1F239", "twitter":"1F239"},
+    "unicode": {"apple":"1F239-FE0F", "google":"1F239", "twitter":"1F239"},
     "shortcode": "u5272",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-5272",
     "category": "symbol"
@@ -5701,42 +5701,42 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "u6709",
-    "unicode": {"apple":"1F236", "google":"1F236", "twitter":"1F236"},
+    "unicode": {"apple":"1F236-FE0F", "google":"1F236", "twitter":"1F236"},
     "shortcode": "u6709",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6709",
     "category": "symbol"
   },
   {
     "name": "u7121",
-    "unicode": {"apple":"1F21A", "google":"1F21A", "twitter":"1F21A"},
+    "unicode": {"apple":"1F21A-FE0F", "google":"1F21A", "twitter":"1F21A"},
     "shortcode": "u7121",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7121",
     "category": "symbol"
   },
   {
     "name": "u7533",
-    "unicode": {"apple":"1F238", "google":"1F238", "twitter":"1F238"},
+    "unicode": {"apple":"1F238-FE0F", "google":"1F238", "twitter":"1F238"},
     "shortcode": "u7533",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7533",
     "category": "symbol"
   },
   {
     "name": "u55b6",
-    "unicode": {"apple":"1F23A", "google":"1F23A", "twitter":"1F23A"},
+    "unicode": {"apple":"1F23A-FE0F", "google":"1F23A", "twitter":"1F23A"},
     "shortcode": "u55b6",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-55B6",
     "category": "symbol"
   },
   {
     "name": "u6708",
-    "unicode": {"apple":"1F237", "google":"1F237", "twitter":"1F237"},
+    "unicode": {"apple":"1F237-FE0F", "google":"1F237", "twitter":"1F237"},
     "shortcode": "u6708",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6708",
     "category": "symbol"
   },
   {
     "name": "eight_pointed_black_star",
-    "unicode": {"apple":"2734", "google":"2734", "twitter":"2734"},
+    "unicode": {"apple":"2734-FE0F", "google":"2734", "twitter":"2734"},
     "shortcode": "eight_pointed_black_star",
     "description": "EIGHT POINTED BLACK STAR",
     "category": "symbol"
@@ -5750,7 +5750,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "accept",
-    "unicode": {"apple":"1F251", "google":"1F251", "twitter":"1F251"},
+    "unicode": {"apple":"1F251-FE0F", "google":"1F251", "twitter":"1F251"},
     "shortcode": "accept",
     "description": "CIRCLED IDEOGRAPH ACCEPT",
     "category": "symbol"
@@ -5764,56 +5764,56 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "ideograph_advantage",
-    "unicode": {"apple":"1F250", "google":"1F250", "twitter":"1F250"},
+    "unicode": {"apple":"1F250-FE0F", "google":"1F250", "twitter":"1F250"},
     "shortcode": "ideograph_advantage",
     "description": "CIRCLED IDEOGRAPH ADVANTAGE",
     "category": "symbol"
   },
   {
     "name": "secret",
-    "unicode": {"apple":"3299", "google":"3299", "twitter":"3299"},
+    "unicode": {"apple":"3299-FE0F", "google":"3299", "twitter":"3299"},
     "shortcode": "secret",
     "description": "CIRCLED IDEOGRAPH SECRET",
     "category": "symbol"
   },
   {
     "name": "congratulations",
-    "unicode": {"apple":"3297", "google":"3297", "twitter":"3297"},
+    "unicode": {"apple":"3297-FE0F", "google":"3297", "twitter":"3297"},
     "shortcode": "congratulations",
     "description": "CIRCLED IDEOGRAPH CONGRATULATION",
     "category": "symbol"
   },
   {
     "name": "u5408",
-    "unicode": {"apple":"1F234", "google":"1F234", "twitter":"1F234"},
+    "unicode": {"apple":"1F234-FE0F", "google":"1F234", "twitter":"1F234"},
     "shortcode": "u5408",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-5408",
     "category": "symbol"
   },
   {
     "name": "u6e80",
-    "unicode": {"apple":"1F235", "google":"1F235", "twitter":"1F235"},
+    "unicode": {"apple":"1F235-FE0F", "google":"1F235", "twitter":"1F235"},
     "shortcode": "u6e80",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6E80",
     "category": "symbol"
   },
   {
     "name": "u7981",
-    "unicode": {"apple":"1F232", "google":"1F232", "twitter":"1F232"},
+    "unicode": {"apple":"1F232-FE0F", "google":"1F232", "twitter":"1F232"},
     "shortcode": "u7981",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7981",
     "category": "symbol"
   },
   {
     "name": "a",
-    "unicode": {"apple":"1F170", "google":"1F170", "twitter":"1F170"},
+    "unicode": {"apple":"1F170-FE0F", "google":"1F170", "twitter":"1F170"},
     "shortcode": "a",
     "description": "NEGATIVE SQUARED LATIN CAPITAL LETTER A",
     "category": "symbol"
   },
   {
     "name": "b",
-    "unicode": {"apple":"1F171", "google":"1F171", "twitter":"1F171"},
+    "unicode": {"apple":"1F171-FE0F", "google":"1F171", "twitter":"1F171"},
     "shortcode": "b",
     "description": "NEGATIVE SQUARED LATIN CAPITAL LETTER B",
     "category": "symbol"
@@ -5834,7 +5834,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "o2",
-    "unicode": {"apple":"1F17E", "google":"1F17E", "twitter":"1F17E"},
+    "unicode": {"apple":"1F17E-FE0F", "google":"1F17E", "twitter":"1F17E"},
     "shortcode": "o2",
     "description": "NEGATIVE SQUARED LATIN CAPITAL LETTER O",
     "category": "symbol"
@@ -5890,7 +5890,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "hotsprings",
-    "unicode": {"apple":"2668", "google":"2668", "twitter":"2668"},
+    "unicode": {"apple":"2668-FE0F", "google":"2668", "twitter":"2668"},
     "shortcode": "hotsprings",
     "description": "HOT SPRINGS",
     "category": "symbol"
@@ -5974,14 +5974,14 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "bangbang",
-    "unicode": {"apple":"203C", "google":"203C", "twitter":"203C"},
+    "unicode": {"apple":"203C-FE0F", "google":"203C", "twitter":"203C"},
     "shortcode": "bangbang",
     "description": "DOUBLE EXCLAMATION MARK",
     "category": "symbol"
   },
   {
     "name": "interrobang",
-    "unicode": {"apple":"2049", "google":"2049", "twitter":"2049"},
+    "unicode": {"apple":"2049-FE0F", "google":"2049", "twitter":"2049"},
     "shortcode": "interrobang",
     "description": "EXCLAMATION QUESTION MARK",
     "category": "symbol"
@@ -6023,14 +6023,14 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "part_alternation_mark",
-    "unicode": {"apple":"303D", "google":"303D", "twitter":"303D"},
+    "unicode": {"apple":"303D-FE0F", "google":"303D", "twitter":"303D"},
     "shortcode": "part_alternation_mark",
     "description": "PART ALTERNATION MARK",
     "category": "symbol"
   },
   {
     "name": "warning",
-    "unicode": {"apple":"26A0", "google":"26A0", "twitter":"26A0"},
+    "unicode": {"apple":"26A0-FE0F", "google":"26A0", "twitter":"26A0"},
     "shortcode": "warning",
     "description": "WARNING SIGN",
     "category": "symbol"
@@ -6051,14 +6051,14 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "recycle",
-    "unicode": {"apple":"267B", "google":"267B", "twitter":"267B"},
+    "unicode": {"apple":"267B-FE0F", "google":"267B", "twitter":"267B"},
     "shortcode": "recycle",
     "description": "BLACK UNIVERSAL RECYCLING SYMBOL",
     "category": "symbol"
   },
   {
     "name": "u6307",
-    "unicode": {"apple":"1F22F", "google":"1F22F", "twitter":"1F22F"},
+    "unicode": {"apple":"1F22F-FE0F", "google":"1F22F", "twitter":"1F22F"},
     "shortcode": "u6307",
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6307",
     "category": "symbol"
@@ -6072,7 +6072,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "sparkle",
-    "unicode": {"apple":"2747", "google":"2747", "twitter":"2747"},
+    "unicode": {"apple":"2747-FE0F", "google":"2747", "twitter":"2747"},
     "shortcode": "sparkle",
     "description": "SPARKLE",
     "category": "symbol"
@@ -6128,7 +6128,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "m",
-    "unicode": {"apple":"24C2", "google":"24C2", "twitter":"24C2"},
+    "unicode": {"apple":"24C2-FE0F", "google":"24C2", "twitter":"24C2"},
     "shortcode": "m",
     "description": "CIRCLED LATIN CAPITAL LETTER M",
     "category": "symbol"
@@ -6142,7 +6142,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "sa",
-    "unicode": {"apple":"1F202", "google":"1F202", "twitter":"1F202"},
+    "unicode": {"apple":"1F202-FE0F", "google":"1F202", "twitter":"1F202"},
     "shortcode": "sa",
     "description": "SQUARED KATAKANA SA",
     "category": "symbol"
@@ -6191,7 +6191,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "parking",
-    "unicode": {"apple":"1F17F", "google":"1F17F", "twitter":"1F17F"},
+    "unicode": {"apple":"1F17F-FE0F", "google":"1F17F", "twitter":"1F17F"},
     "shortcode": "parking",
     "description": "NEGATIVE SQUARED LATIN CAPITAL LETTER P",
     "category": "symbol"
@@ -6226,7 +6226,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "restroom",
-    "unicode": {"apple":"", "google":"1F6BB", "twitter":"1F6BB"},
+    "unicode": {"apple":"1F6BB", "google":"1F6BB", "twitter":"1F6BB"},
     "shortcode": "restroom",
     "description": "RESTROOM",
     "category": "symbol"
@@ -6254,7 +6254,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "koko",
-    "unicode": {"apple":"", "google":"1F201", "twitter":"1F201"},
+    "unicode": {"apple":"1F201", "google":"1F201", "twitter":"1F201"},
     "shortcode": "koko",
     "description": "SQUARED KATAKANA KOKO",
     "category": "symbol"
@@ -6303,70 +6303,70 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "zero",
-    "unicode": {"apple":"0030-20E3", "google":"0030-20E3", "twitter":"0030-20E3"},
+    "unicode": {"apple":"0030-20E3-FE0F", "google":"0030-20E3", "twitter":"0030-20E3"},
     "shortcode": "zero",
     "description": "KEYCAP 0",
     "category": "symbol"
   },
   {
     "name": "one",
-    "unicode": {"apple":"0031-20E3", "google":"0031-20E3", "twitter":"0031-20E3"},
+    "unicode": {"apple":"0031-20E3-FE0F", "google":"0031-20E3", "twitter":"0031-20E3"},
     "shortcode": "one",
     "description": "KEYCAP 1",
     "category": "symbol"
   },
   {
     "name": "two",
-    "unicode": {"apple":"0032-20E3", "google":"0032-20E3", "twitter":"0032-20E3"},
+    "unicode": {"apple":"0032-20E3-FE0F", "google":"0032-20E3", "twitter":"0032-20E3"},
     "shortcode": "two",
     "description": "KEYCAP 2",
     "category": "symbol"
   },
   {
     "name": "three",
-    "unicode": {"apple":"0033-20E3", "google":"0033-20E3", "twitter":"0033-20E3"},
+    "unicode": {"apple":"0033-20E3-FE0F", "google":"0033-20E3", "twitter":"0033-20E3"},
     "shortcode": "three",
     "description": "KEYCAP 3",
     "category": "symbol"
   },
   {
     "name": "four",
-    "unicode": {"apple":"0034-20E3", "google":"0034-20E3", "twitter":"0034-20E3"},
+    "unicode": {"apple":"0034-20E3-FE0F", "google":"0034-20E3", "twitter":"0034-20E3"},
     "shortcode": "four",
     "description": "KEYCAP 4",
     "category": "symbol"
   },
   {
     "name": "five",
-    "unicode": {"apple":"0035-20E3", "google":"0035-20E3", "twitter":"0035-20E3"},
+    "unicode": {"apple":"0035-20E3-FE0F", "google":"0035-20E3", "twitter":"0035-20E3"},
     "shortcode": "five",
     "description": "KEYCAP 5",
     "category": "symbol"
   },
   {
     "name": "six",
-    "unicode": {"apple":"0036-20E3", "google":"0036-20E3", "twitter":"0036-20E3"},
+    "unicode": {"apple":"0036-20E3-FE0F", "google":"0036-20E3", "twitter":"0036-20E3"},
     "shortcode": "six",
     "description": "KEYCAP 6",
     "category": "symbol"
   },
   {
     "name": "seven",
-    "unicode": {"apple":"0037-20E3", "google":"0037-20E3", "twitter":"0037-20E3"},
+    "unicode": {"apple":"0037-20E3-FE0F", "google":"0037-20E3", "twitter":"0037-20E3"},
     "shortcode": "seven",
     "description": "KEYCAP 7",
     "category": "symbol"
   },
   {
     "name": "eight",
-    "unicode": {"apple":"0038-20E3", "google":"0038-20E3", "twitter":"0038-20E3"},
+    "unicode": {"apple":"0038-20E3-FE0F", "google":"0038-20E3", "twitter":"0038-20E3"},
     "shortcode": "eight",
     "description": "KEYCAP 8",
     "category": "symbol"
   },
   {
     "name": "nine",
-    "unicode": {"apple":"0039-20E3", "google":"0039-20E3", "twitter":"0039-20E3"},
+    "unicode": {"apple":"0039-20E3-FE0F", "google":"0039-20E3", "twitter":"0039-20E3"},
     "shortcode": "nine",
     "description": "KEYCAP 9",
     "category": "symbol"
@@ -6387,7 +6387,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "arrow_forward",
-    "unicode": {"apple":"25B6", "google":"25B6", "twitter":"25B6"},
+    "unicode": {"apple":"25B6-FE0F", "google":"25B6", "twitter":"25B6"},
     "shortcode": "arrow_forward",
     "description": "BLACK RIGHT-POINTING TRIANGLE",
     "category": "symbol"
@@ -6464,7 +6464,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "arrow_backward",
-    "unicode": {"apple":"25C0", "google":"25C0", "twitter":"25C0"},
+    "unicode": {"apple":"25C0-FE0F", "google":"25C0", "twitter":"25C0"},
     "shortcode": "arrow_backward",
     "description": "BLACK LEFT-POINTING TRIANGLE",
     "category": "symbol"
@@ -6499,70 +6499,70 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "arrow_right",
-    "unicode": {"apple":"27A1", "google":"27A1", "twitter":"27A1"},
+    "unicode": {"apple":"27A1-FE0F", "google":"27A1", "twitter":"27A1"},
     "shortcode": "arrow_right",
     "description": "BLACK RIGHTWARDS ARROW",
     "category": "symbol"
   },
   {
     "name": "arrow_left",
-    "unicode": {"apple":"2B05", "google":"2B05", "twitter":"2B05"},
+    "unicode": {"apple":"2B05-FE0F", "google":"2B05", "twitter":"2B05"},
     "shortcode": "arrow_left",
     "description": "LEFTWARDS BLACK ARROW",
     "category": "symbol"
   },
   {
     "name": "arrow_up",
-    "unicode": {"apple":"2B06", "google":"2B06", "twitter":"2B06"},
+    "unicode": {"apple":"2B06-FE0F", "google":"2B06", "twitter":"2B06"},
     "shortcode": "arrow_up",
     "description": "UPWARDS BLACK ARROW",
     "category": "symbol"
   },
   {
     "name": "arrow_down",
-    "unicode": {"apple":"2B07", "google":"2B07", "twitter":"2B07"},
+    "unicode": {"apple":"2B07-FE0F", "google":"2B07", "twitter":"2B07"},
     "shortcode": "arrow_down",
     "description": "DOWNWARDS BLACK ARROW",
     "category": "symbol"
   },
   {
     "name": "arrow_upper_right",
-    "unicode": {"apple":"2197", "google":"2197", "twitter":"2197"},
+    "unicode": {"apple":"2197-FE0F", "google":"2197", "twitter":"2197"},
     "shortcode": "arrow_upper_right",
     "description": "NORTH EAST ARROW",
     "category": "symbol"
   },
   {
     "name": "arrow_lower_right",
-    "unicode": {"apple":"2198", "google":"2198", "twitter":"2198"},
+    "unicode": {"apple":"2198-FE0F", "google":"2198", "twitter":"2198"},
     "shortcode": "arrow_lower_right",
     "description": "SOUTH EAST ARROW",
     "category": "symbol"
   },
   {
     "name": "arrow_lower_left",
-    "unicode": {"apple":"2199", "google":"2199", "twitter":"2199"},
+    "unicode": {"apple":"2199-FE0F", "google":"2199", "twitter":"2199"},
     "shortcode": "arrow_lower_left",
     "description": "SOUTH WEST ARROW",
     "category": "symbol"
   },
   {
     "name": "arrow_upper_left",
-    "unicode": {"apple":"2196", "google":"2196", "twitter":"2196"},
+    "unicode": {"apple":"2196-FE0F", "google":"2196", "twitter":"2196"},
     "shortcode": "arrow_upper_left",
     "description": "NORTH WEST ARROW",
     "category": "symbol"
   },
   {
     "name": "arrow_up_down",
-    "unicode": {"apple":"2195", "google":"2195", "twitter":"2195"},
+    "unicode": {"apple":"2195-FE0F", "google":"2195", "twitter":"2195"},
     "shortcode": "arrow_up_down",
     "description": "UP DOWN ARROW",
     "category": "symbol"
   },
   {
     "name": "left_right_arrow",
-    "unicode": {"apple":"2194", "google":"2194", "twitter":"2194"},
+    "unicode": {"apple":"2194-FE0F", "google":"2194", "twitter":"2194"},
     "shortcode": "left_right_arrow",
     "description": "LEFT RIGHT ARROW",
     "category": "symbol"
@@ -6576,28 +6576,28 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "arrow_right_hook",
-    "unicode": {"apple":"21AA", "google":"21AA", "twitter":"21AA"},
+    "unicode": {"apple":"21AA-FE0F", "google":"21AA", "twitter":"21AA"},
     "shortcode": "arrow_right_hook",
     "description": "RIGHTWARDS ARROW WITH HOOK",
     "category": "symbol"
   },
   {
     "name": "leftwards_arrow_with_hook",
-    "unicode": {"apple":"21A9", "google":"21A9", "twitter":"21A9"},
+    "unicode": {"apple":"21A9-FE0F", "google":"21A9", "twitter":"21A9"},
     "shortcode": "leftwards_arrow_with_hook",
     "description": "LEFTWARDS ARROW WITH HOOK",
     "category": "symbol"
   },
   {
     "name": "arrow_heading_up",
-    "unicode": {"apple":"2934", "google":"2934", "twitter":"2934"},
+    "unicode": {"apple":"2934-FE0F", "google":"2934", "twitter":"2934"},
     "shortcode": "arrow_heading_up",
     "description": "ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS",
     "category": "symbol"
   },
   {
     "name": "arrow_heading_down",
-    "unicode": {"apple":"2935", "google":"2935", "twitter":"2935"},
+    "unicode": {"apple":"2935-FE0F", "google":"2935", "twitter":"2935"},
     "shortcode": "arrow_heading_down",
     "description": "ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS",
     "category": "symbol"
@@ -6611,14 +6611,14 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "hash",
-    "unicode": {"apple":"0023-20E3", "google":"0023-20E3", "twitter":"0023-20E3"},
+    "unicode": {"apple":"0023-20E3-FE0F", "google":"0023-20E3", "twitter":"0023-20E3"},
     "shortcode": "hash",
     "description": "HASH KEY",
     "category": "symbol"
   },
   {
     "name": "information_source",
-    "unicode": {"apple":"2139", "google":"2139", "twitter":"2139"},
+    "unicode": {"apple":"2139-FE0F", "google":"2139", "twitter":"2139"},
     "shortcode": "information_source",
     "description": "INFORMATION SOURCE",
     "category": "symbol"
@@ -6667,55 +6667,55 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "wavy_dash",
-    "unicode": {"apple":"3030", "google":"3030", "twitter":"3030"},
+    "unicode": {"apple":"3030-FE0F", "google":"3030", "twitter":"3030"},
     "shortcode": "wavy_dash",
     "description": "WAVY DASH",
     "category": "symbol"
   },
   {
     "name": "curly_loop",
-    "unicode": {"apple":"27B0", "google":"27B0", "twitter":"27B0"},
+    "unicode": {"apple":"27B0-FE0F", "google":"27B0", "twitter":"27B0"},
     "shortcode": "curly_loop",
     "description": "CURLY LOOP",
     "category": "symbol"
   },
   {
     "name": "heavy_check_mark",
-    "unicode": {"apple":"2714", "google":"2714", "twitter":"2714"},
+    "unicode": {"apple":"2714-FE0F", "google":"2714", "twitter":"2714"},
     "shortcode": "heavy_check_mark",
     "description": "HEAVY CHECK MARK",
     "category": "symbol"
   },
   {
     "name": "heavy_plus_sign",
-    "unicode": {"apple":"2795", "google":"2795", "twitter":"2795"},
+    "unicode": {"apple":"2795-FE0F", "google":"2795", "twitter":"2795"},
     "shortcode": "heavy_plus_sign",
     "description": "HEAVY PLUS SIGN",
     "category": "symbol"
   },
   {
     "name": "heavy_minus_sign",
-    "unicode": {"apple":"2796", "google":"2796", "twitter":"2796"},
+    "unicode": {"apple":"2796-FE0F", "google":"2796", "twitter":"2796"},
     "shortcode": "heavy_minus_sign",
     "description": "HEAVY MINUS SIGN",
     "category": "symbol"
   },
   {
     "name": "heavy_multiplication_x",
-    "unicode": {"apple":"2716", "google":"2716", "twitter":"2716"},
+    "unicode": {"apple":"2716-FE0F", "google":"2716", "twitter":"2716"},
     "shortcode": "heavy_multiplication_x",
     "description": "HEAVY MULTIPLICATION X",
     "category": "symbol"
   },
   {
     "name": "heavy_division_sign",
-    "unicode": {"apple":"2797", "google":"2797", "twitter":"2797"},
+    "unicode": {"apple":"2797-FE0F", "google":"2797", "twitter":"2797"},
     "shortcode": "heavy_division_sign",
     "description": "HEAVY DIVISION SIGN",
     "category": "symbol"
   },
   {
-    "name": "heavy_dollar_sign",
+    "name": "heavy_dollar_sign-FE0F",
     "unicode": {"apple":"1F4B2", "google":"1F4B2", "twitter":"1F4B2"},
     "shortcode": "heavy_dollar_sign",
     "description": "HEAVY DOLLAR SIGN",
@@ -6723,21 +6723,21 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "copyright",
-    "unicode": {"apple":"00A9", "google":"00A9-FE0F", "twitter":"00A9-FE0F"},
+    "unicode": {"apple":"00A9-FE0F", "google":"00A9-FE0F", "twitter":"00A9-FE0F"},
     "shortcode": "copyright",
     "description": "COPYRIGHT SIGN",
     "category": "symbol"
   },
   {
     "name": "registered",
-    "unicode": {"apple":"00AE", "google":"00AE-FE0F", "twitter":"00AE-FE0F"},
+    "unicode": {"apple":"00AE-FE0F", "google":"00AE-FE0F", "twitter":"00AE-FE0F"},
     "shortcode": "registered",
     "description": "REGISTERED SIGN",
     "category": "symbol"
   },
   {
     "name": "tm",
-    "unicode": {"apple":"2122", "google":"2122", "twitter":"2122"},
+    "unicode": {"apple":"2122-FE0F", "google":"2122", "twitter":"2122"},
     "shortcode": "tm",
     "description": "TRADE MARK SIGN",
     "category": "symbol"
@@ -6779,7 +6779,7 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "ballot_box_with_check",
-    "unicode": {"apple":"2611", "google":"2611", "twitter":"2611"},
+    "unicode": {"apple":"2611-FE0F", "google":"2611", "twitter":"2611"},
     "shortcode": "ballot_box_with_check",
     "description": "BALLOT BOX WITH CHECK",
     "category": "symbol"
@@ -6856,14 +6856,14 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "black_small_square",
-    "unicode": {"apple":"25AA", "google":"25AA", "twitter":"25AA"},
+    "unicode": {"apple":"25AA-FE0F", "google":"25AA", "twitter":"25AA"},
     "shortcode": "black_small_square",
     "description": "BLACK SMALL SQUARE",
     "category": "symbol"
   },
   {
     "name": "white_small_square",
-    "unicode": {"apple":"25AB", "google":"25AB", "twitter":"25AB"},
+    "unicode": {"apple":"25AB-FE0F", "google":"25AB", "twitter":"25AB"},
     "shortcode": "white_small_square",
     "description": "WHITE SMALL SQUARE",
     "category": "symbol"
@@ -6891,14 +6891,14 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "black_medium_square",
-    "unicode": {"apple":"25FC", "google":"25FC", "twitter":"25FC"},
+    "unicode": {"apple":"25FC-FE0F", "google":"25FC", "twitter":"25FC"},
     "shortcode": "black_medium_square",
     "description": "BLACK MEDIUM SQUARE",
     "category": "symbol"
   },
   {
     "name": "white_medium_square",
-    "unicode": {"apple":"25FB", "google":"25FB", "twitter":"25FB"},
+    "unicode": {"apple":"25FB-FE0F", "google":"25FB", "twitter":"25FB"},
     "shortcode": "white_medium_square",
     "description": "WHITE MEDIUM SQUARE",
     "category": "symbol"
@@ -7003,28 +7003,28 @@ $.fn.emojiPicker.emojis = [
   },
   {
     "name": "spades",
-    "unicode": {"apple":"2660", "google":"2660", "twitter":"2660"},
+    "unicode": {"apple":"2660-FE0F", "google":"2660", "twitter":"2660"},
     "shortcode": "spades",
     "description": "BLACK SPADE SUIT",
     "category": "symbol"
   },
   {
     "name": "clubs",
-    "unicode": {"apple":"2663", "google":"2663", "twitter":"2663"},
+    "unicode": {"apple":"2663-FE0F", "google":"2663", "twitter":"2663"},
     "shortcode": "clubs",
     "description": "BLACK CLUB SUIT",
     "category": "symbol"
   },
   {
     "name": "hearts",
-    "unicode": {"apple":"2665", "google":"2665", "twitter":"2665"},
+    "unicode": {"apple":"2665-FE0F", "google":"2665", "twitter":"2665"},
     "shortcode": "hearts",
     "description": "BLACK HEART SUIT",
     "category": "symbol"
   },
   {
     "name": "diamonds",
-    "unicode": {"apple":"2666", "google":"2666", "twitter":"2666"},
+    "unicode": {"apple":"2666-FE0F", "google":"2666", "twitter":"2666"},
     "shortcode": "diamonds",
     "description": "BLACK DIAMOND SUIT",
     "category": "symbol"
