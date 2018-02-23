@@ -1,32 +1,31 @@
 <!doctype html>
 <html>
 <head>
-  <title>jQuery Emoji Picker Demo</title>
-  <link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.css">
+  <title>jQuery Emoji Chooser Demo</title>
+  <link rel="stylesheet" type="text/css" href="css/jquery.emojichooser.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script type="text/javascript" src="js/jquery.emojipicker.js"></script>
+  <script type="text/javascript" src="js/jquery.emojichooser.js"></script>
 
   <!-- Emoji Data -->
-  <link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.tw.css">
   <script type="text/javascript" src="js/jquery.emojis.js"></script>
 
   <script type="text/javascript">
     $(document).ready(function(e) {
 
-      $('#input-default').emojiPicker();
+      $('#input-default').emojiChooser();
 
-      $('#input-custom-size').emojiPicker({
+      $('#input-custom-size').emojiChooser({
         width: '300px',
         height: '200px'
       });
 
-      $('#input-left-position').emojiPicker({
+      $('#input-left-position').emojiChooser({
         position: 'left'
       });
 
       $('#create').click(function(e) {
         e.preventDefault();
-        $('#text-custom-trigger').emojiPicker({
+        $('#text-custom-trigger').emojiChooser({
           width: '300px',
           height: '200px',
           button: false
@@ -35,12 +34,12 @@
 
       $('#toggle').click(function(e) {
         e.preventDefault();
-        $('#text-custom-trigger').emojiPicker('toggle');
+        $('#text-custom-trigger').emojiChooser('toggle');
       });
 
       $('#destroy').click(function(e) {
         e.preventDefault();
-        $('#text-custom-trigger').emojiPicker('destroy');
+        $('#text-custom-trigger').emojiChooser('destroy');
       })
 
       // keyup event is fired

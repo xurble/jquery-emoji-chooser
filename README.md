@@ -7,7 +7,6 @@ A simple jQuery plugin to allow users to enter emoji into any text input or text
 
 Based on the great [jQuery Emjoi Chooser](https://github.com/wedgies/jquery-emoji-picker).
 
-T
 Want to see a [demo](http://xurble.github.io/jquery-emoji-chooser/demo.html)?
 
 ## Installation ##
