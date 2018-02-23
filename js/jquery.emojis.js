@@ -1,5 +1,5 @@
 $(function() {
-$.fn.emojiPicker.emojis = [
+$.fn.emojiChooser.emojis = [
   {
     "name": "grinning",
     "unicode": {"apple":"1F600", "google":"1F600", "twitter":"1F600"},

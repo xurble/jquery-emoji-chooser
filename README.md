@@ -1,23 +1,21 @@
-# jQuery Emoji Picker #
+# jQuery Emoji Chooser #
+
 
 ## Description ##
 
-The top 3 things your users love:
+A simple jQuery plugin to allow users to enter emoji into any text input or textarea.
 
-1. Animated GIFs
-2. Emojis
-3. 🍩's
+Based on the great [jQuery Emjoi Chooser](https://github.com/wedgies/jquery-emoji-picker).
 
-This JQuery Plugin allows you to add support for both Emojis and 🍩 to any text input on your web app.  With this plugin, your desktop users can enjoy the same great Emoji support your mobile users already have. All while eating a 🍩.
-
-Want to see a [demo](http://wedgies.github.io/jquery-emoji-picker/demo.html)?
+T
+Want to see a [demo](http://xurble.github.io/jquery-emoji-chooser/demo.html)?
 
 ## Installation ##
 
 You can install the assets via bower:
 
 ```bash
-$ bower install jquery-emoji-picker
+$ bower install jquery-emoji-chooser
 ```
 
 Make sure that jQuery is included in your `<head></head>` tag.  If you are not already including it, you can load it from jQuery's CDN:
@@ -37,28 +35,11 @@ Add the following to your `<head></head>` tag:
 <script type="text/javascript" src="js/jquery.emojis.js"></script>
 ```
 
-The jQuery Emoji Picker has 3 icon sets to choose from - Apple, Twitter, and Google icons. The Apple icons are used by default. To instead use Twitter or Google icons, replace the stylesheet:
 
-```html
-<link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.a.css">
-```
-
-with either Google:
-
-```html
-<link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.g.css">
-```
-
-or Twitter:
-
-```html
-<link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.tw.css">
-```
-
-Initialize the jQuery Emoji Picker by calling `emojiPicker` on an input element with optional parameters, described below:
+Initialize the jQuery Emoji Chooser by calling `emojiChooser` on an input element with optional parameters, described below:
 
 ```javascript
-$('.question').emojiPicker({
+$('.question').emojiChooser({
   height: '300px',
   width:  '450px'
 });
@@ -93,7 +74,7 @@ Whether to show the emoji button on the input or not. Defaults to true. If you h
 Triggered once the emoji picker appears. `picker` (Object), `settings` (Object), and `isActive` (boolean) are returned. Example usage:
 
 ```javascript
-$('#question').emojiPicker({
+$('#question').emojiChooser({
   onShow: function(picker, settings, isActive) {
   	...
   }
@@ -104,29 +85,29 @@ $('#question').emojiPicker({
 Triggered once the emoji picker disappears. `picker` (Object), `settings` (Object), and `isActive` (boolean) are returned. Example usage:
 
 ```javascript
-$('#question').emojiPicker({
+$('#question').emojiChooser({
   onHide: function(picker, settings, isActive) {
   	...
   }
 });
 ```
 
-## Triggering Emoji Picker Manually ##
+## Triggering Emoji Chooser Manually ##
 
 To trigger the button manually, you can call a jQuery function on the same element you bound it to.
 
 ```javascript
-$('#question').emojiPicker('toggle');
+$('#question').emojiChooser('toggle');
 ```
 
 You can see an example of this in the [demo](http://wedgies.github.io/jquery-emoji-picker/demo.html).
 
-## Destroying the Emoji Picker ##
+## Destroying the Emoji Chooser ##
 
 To remove the the emoji picker html and event listeners, simply call the emoji picker function with the `destroy` option:
 
 ```javascript
-$('#question').emojiPicker('destroy');
+$('#question').emojiChooser('destroy');
 ```
 
 An example of this can be found in the [demo](http://wedgies.github.io/jquery-emoji-picker/demo.html).
@@ -135,11 +116,11 @@ An example of this can be found in the [demo](http://wedgies.github.io/jquery-em
 
 ## Notes ##
 
-jQuery Emoji Picker is disabled for mobile devices, which already support the emoji keyboard.
+jQuery Emoji Chooser is disabled for mobile devices, which already support the emoji keyboard.
 
 ## Attribution ##
 
-The jQuery Emoji Picker would not be here without the CSS and image data generated from Wemoji:
+The jQuery Emoji Chooser would not be here without the CSS and image data generated from Wemoji:
 [https://github.com/wedgies/wemoji](https://github.com/wedgies/wemoji)
 
 Apple Emoji: Copyright (C) Apple Inc. - OS X 10.10.3
@@ -148,11 +129,11 @@ Twitter Emoji Copyright (C) Twitter, Inc. - The original release
 
 ## License ##
 
-The jQuery Emoji Picker is licensed under ISC.
+The jQuery Emoji Chooser is licensed under ISC.
 
 ## About ##
 
-The jQuery Emoji Picker was developed by the team at [Wedgies](http://www.wedgies.com).
+The jQuery Emoji Chooser was developed by the team at [Wedgies](http://www.wedgies.com).
 
 Wedgies is a digital survey platform that gives media, journalists and brands in-line survey capabilities inside social media, their website, and their apps — where they can collect millions of opinions from their readers and users. Wedgies is the leading social survey platform that enables publishers to collect survey respondents directly within social media streams.
 
