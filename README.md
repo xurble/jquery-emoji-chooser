@@ -24,11 +24,10 @@ Make sure that jQuery is included in your `<head></head>` tag.  If you are not a
 Add the following to your `<head></head>` tag:
 
 ```html
-<link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.css">
-<script type="text/javascript" src="js/jquery.emojipicker.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.emojichooser.css">
+<script type="text/javascript" src="js/jquery.emojichooser.js"></script>
 
 <!-- Emoji Data -->
-<link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.a.css">
 <script type="text/javascript" src="js/jquery.emojis.js"></script>
 ```
 
@@ -45,19 +44,19 @@ $('.question').emojiChooser({
 ## Parameters ##
 
 ### width (int) ###
-The width of the picker in pixels. Must be between 280-600px. Defaults to 280px if no width is specified.
+The width of the chooser in pixels. Must be between 280-600px. Defaults to 280px if no width is specified.
 
 ### height (int) ###
-The height of the picker in pixels. Must be between 100-350px. Defaults to 250px if no height is specified.
+The height of the chooser in pixels. Must be between 100-350px. Defaults to 250px if no height is specified.
 
 ### fadeTime (int) ###
-The amount of time in ms that it will take for the picker to fade in and out. Defaults to 100ms if no fadeTime is specified.
+The amount of time in ms that it will take for the chooser to fade in and out. Defaults to 100ms if no fadeTime is specified.
 
 ### iconColor (string) ###
-The color of the smiley image that appears on the picker button. Acceptable values are ['white', 'black', 'gray', 'yellow']. Defaults to 'black' if no iconColor is specified.
+The color of the smiley image that appears on the chooser button. Acceptable values are ['white', 'black', 'gray', 'yellow']. Defaults to 'black' if no iconColor is specified.
 
 ### iconBackgroundColor (string) ###
-The background color of the picker button. Any hex value is acceptable. Defaults to '#eee' if no iconBackgroundColor is specified.
+The background color of the chooser button. Any hex value is acceptable. Defaults to '#eee' if no iconBackgroundColor is specified.
 
 ### recentCount (int) ###
 The number of emojis that should show in the 'Recently Used' section. Defaults to 36 if no recentCount is specified.
@@ -68,22 +67,22 @@ Note: 'Recently Used' will only show for the user if their browser supports HTML
 Whether to show the emoji button on the input or not. Defaults to true. If you hide the button, you will probably need to trigger the emoji entry manually (see below).
 
 ### onShow (function) ###
-Triggered once the emoji picker appears. `picker` (Object), `settings` (Object), and `isActive` (boolean) are returned. Example usage:
+Triggered once the emoji chooser appears. `chooser` (Object), `settings` (Object), and `isActive` (boolean) are returned. Example usage:
 
 ```javascript
 $('#question').emojiChooser({
-  onShow: function(picker, settings, isActive) {
+  onShow: function(chooser, settings, isActive) {
   	...
   }
 });
 ```
 
 ### onHide (function) ###
-Triggered once the emoji picker disappears. `picker` (Object), `settings` (Object), and `isActive` (boolean) are returned. Example usage:
+Triggered once the emoji chooser disappears. `chooser` (Object), `settings` (Object), and `isActive` (boolean) are returned. Example usage:
 
 ```javascript
 $('#question').emojiChooser({
-  onHide: function(picker, settings, isActive) {
+  onHide: function(chooser, settings, isActive) {
   	...
   }
 });
@@ -101,7 +100,7 @@ You can see an example of this in the [demo](http://xurble.github.io/jquery-emoj
 
 ## Destroying the Emoji Chooser ##
 
-To remove the the emoji picker html and event listeners, simply call the emoji picker function with the `destroy` option:
+To remove the the emoji chooser html and event listeners, simply call the emoji chooser function with the `destroy` option:
 
 ```javascript
 $('#question').emojiChooser('destroy');
