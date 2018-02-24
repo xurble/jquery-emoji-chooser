@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "homepage": "https://github.com/xurble/jquery-emoji-chooser",
   "authors": [
-    "Wedgies, Inc"
+    "Wedgies, Inc",
+    "Gareth Simpson"
   ],
   "keywords": [
     "emoji",
     "jquery",
     "picker",
-    "chooser",
+    "chooser"
   ],
   "license": "ISC",
   "ignore": [
