@@ -9,7 +9,6 @@
         iconColor: 'black',
         iconBackgroundColor: '#eee',
         recentCount: 36,
-        emojiSet: 'apple',
         container: 'body',
         button: true
       };
@@ -264,7 +263,7 @@
       }
 
       var emojiShortcode = emojiSpan.attr('class').split('emoji-')[1];
-      var emojiUnicode = toUnicode(findEmoji(emojiShortcode).unicode[defaults.emojiSet]);
+      var emojiUnicode = toUnicode(findEmoji(emojiShortcode).unicode);
 
       insertAtCaret(this.element, emojiUnicode);
       addToLocalStorage(emojiShortcode);
@@ -287,7 +286,7 @@
         var emoji = findEmoji(emojiShortcode);
 
 
-      $shortcode.find('.info').show().html('<div class="emoji emoji-' + emojiShortcode + '">'+getHtmlEntities(emoji.unicode["apple"])+'</div><em>' + emojiShortcode + '</em>');
+      $shortcode.find('.info').show().html('<div class="emoji emoji-' + emojiShortcode + '">'+getHtmlEntities(emoji.unicode)+'</div><em>' + emojiShortcode + '</em>');
     },
 
     emojiMouseout: function(e) {
@@ -404,7 +403,7 @@
           var shortcode = emoji.shortcode;
 
           if ( shortcode.indexOf(searchTerm) > -1 ) {
-            results.push('<em><div class="emoji emoji-' + shortcode + '">'+getHtmlEntities(emoji.unicode["apple"])+'</div></em>');
+            results.push('<em><div class="emoji emoji-' + shortcode + '">'+getHtmlEntities(emoji.unicode)+'</div></em>');
           }
         });
         searchEmojiWrap.append(results.join(''));
@@ -514,7 +513,7 @@
 
 
 
-            nodes.push('<em><span class="emoji emoji-' + recentlyUsedEmojis[i] + '">'+getHtmlEntities(emoji.unicode["apple"])+'</span></em>');
+            nodes.push('<em><span class="emoji emoji-' + recentlyUsedEmojis[i] + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
         }
       }
       nodes.push('</div></section>');
@@ -530,7 +529,7 @@
         var emoji = items[ categories[i].name ][ j ];
 
 
-        nodes.push('<em><span class="emoji emoji-' + emoji.shortcode + '">'+getHtmlEntities(emoji.unicode["apple"])+'</span></em>');
+        nodes.push('<em><span class="emoji emoji-' + emoji.shortcode + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
       }
       nodes.push('</div></section>');
     }
@@ -556,7 +555,7 @@
     var emojis = $.fn.emojiChooser.emojis;
     var i = Math.floor(Math.random() * (364 - 0) + 0);
     var emoji = emojis[i];
-    return 'Daily Emoji: <span class="eod"><span class="emoji emoji-' + emoji.name + '">'+getHtmlEntities(emoji.unicode["apple"])+'</span> <span class="emojiName">' + emoji.name + '</span></span>';
+    return 'Daily Emoji: <span class="eod"><span class="emoji emoji-' + emoji.name + '">'+getHtmlEntities(emoji.unicode)+'</span> <span class="emojiName">' + emoji.name + '</span></span>';
   }
 
   function findEmoji(emojiShortcode) {
@@ -634,7 +633,7 @@
       
       
 
-      emojis.push('<em><span class="emoji emoji-' + recentlyUsedEmojis[i] + '">'+getHtmlEntities(emoji.unicode["apple"])+'</span></em>');
+      emojis.push('<em><span class="emoji emoji-' + recentlyUsedEmojis[i] + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
     }
 
     // Fix height as emojis are added
