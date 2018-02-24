@@ -5,9 +5,7 @@
 
 A simple jQuery plugin to allow users to enter emoji into any text input or textarea.
 
-Based on the great [jQuery Emjoi Chooser](https://github.com/wedgies/jquery-emoji-picker).
-
-Want to see a [demo](http://xurble.github.io/jquery-emoji-chooser/demo.html)?
+Try the [demo](http://xurble.github.io/jquery-emoji-chooser/demo.html).
 
 ## Installation ##
 
@@ -99,7 +97,7 @@ To trigger the button manually, you can call a jQuery function on the same eleme
 $('#question').emojiChooser('toggle');
 ```
 
-You can see an example of this in the [demo](http://wedgies.github.io/jquery-emoji-picker/demo.html).
+You can see an example of this in the [demo](http://xurble.github.io/jquery-emoji-chooser/demo.html).
 
 ## Destroying the Emoji Chooser ##
 
@@ -109,7 +107,7 @@ To remove the the emoji picker html and event listeners, simply call the emoji p
 $('#question').emojiChooser('destroy');
 ```
 
-An example of this can be found in the [demo](http://wedgies.github.io/jquery-emoji-picker/demo.html).
+An example of this can be found in the [demo](http://xurble.github.io/jquery-emoji-chooser/demo.html).
 
 
 
@@ -119,12 +117,9 @@ jQuery Emoji Chooser is disabled for mobile devices, which already support the e
 
 ## Attribution ##
 
-The jQuery Emoji Chooser would not be here without the CSS and image data generated from Wemoji:
-[https://github.com/wedgies/wemoji](https://github.com/wedgies/wemoji)
+The jQuery Emoji Chooser is based on the original 
+[jQuery Emjoi Picker](https://github.com/wedgies/jquery-emoji-picker)
 
-Apple Emoji: Copyright (C) Apple Inc. - OS X 10.10.3
-Android Emoji: Copyright (C) The Android Open Source Project - Lollipop
-Twitter Emoji Copyright (C) Twitter, Inc. - The original release
 
 ## License ##
 
@@ -132,12 +127,7 @@ The jQuery Emoji Chooser is licensed under ISC.
 
 ## About ##
 
-The jQuery Emoji Chooser was developed by the team at [Wedgies](http://www.wedgies.com).
+The [jQuery Emjoi Picker](https://github.com/wedgies/jquery-emoji-picker) was developed by the team at [Wedgies](http://www.wedgies.com).
 
-Wedgies is a digital survey platform that gives media, journalists and brands in-line survey capabilities inside social media, their website, and their apps — where they can collect millions of opinions from their readers and users. Wedgies is the leading social survey platform that enables publishers to collect survey respondents directly within social media streams.
+This goal of this version is to bring in support for features like skin tones, while removing the dependency on large image downloads for the UI.
 
-Wedgies is backed by an all-star list of investors including Vegas Tech Fund, Greycroft, Advancit Capital, MESA Ventures, Knight Foundation, kbs+ Ventures, Battle Born Ventures, Twilio, 500 Startups and SV Angel.
-
-Wedgies' founding team consists of top talent in developer tools and community management with experience that includes Zappos.com, Overstock.com, and Backcountry.com.
-
-[![Built with Wedgies](https://d3v9r9uda02hel.cloudfront.net/production/1.55.17/img/built-with-wedgies.png)](http://wedgies.com)
