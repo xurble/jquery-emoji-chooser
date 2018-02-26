@@ -125,13 +125,19 @@
         
         $.fn.emojiChooser.prefsLoaded = true;
     
-        var localStorageSupport = (typeof(Storage) !== 'undefined') ? true : false;
-        
+
         $.fn.emojiChooser.emojiPrefs = {
-            facepunch : "1F3FD"
-        };
+
+        };        
+
+        var localStorageSupport = (typeof(Storage) !== 'undefined') ? true : false;
 
 
+        if (localStorageSupport) {
+            if(localStorage.emojiPrefs) {
+                $.fn.emojiChooser.emojiPrefs = JSON.parse(localStorage.emojiPrefs);
+            }    
+        } 
 
         $.each($.fn.emojiChooser.emojis, function(i, emoji) {
 
@@ -322,10 +328,22 @@
             $(".emoji-" + emojiShortcode).html(getHtmlEntities(emoji.unicode));
             
             $("#skinprefs").fadeOut();
+
+
+            var localStorageSupport = (typeof(Storage) !== 'undefined') ? true : false;
+            if(localStorage) {
+
+                $.fn.emojiChooser.emojiPrefs[emojiShortcode] = pref;
+
+
+                localStorage.emojiPrefs = JSON.stringify($.fn.emojiChooser.emojiPrefs);
+            }
+
       }
       
       if(emoji.skintones && !emoji.prefchosen) {
             showPrefPane(emoji, emojiSpan);
+            return;
       }
 
       var emojiUnicode = toUnicode(emoji.unicode);
@@ -678,17 +696,12 @@
   
   function showPrefPane(emoji, emojiSpan) {
     var os = $(emojiSpan).position();    
-        
     
     $("#pref-base").data("shortcode",emoji.shortcode).html(getHtmlEntities(emoji.baseUnicode));
     
     for(var i = 0; i < skintones.length; i++) {
-    
         $("#pref-" + i).data("shortcode", emoji.shortcode).html(getHtmlEntities(emoji.baseUnicode + '-' + skintones[i]));
-    
     }
-
-    
 
     $("#skinprefs").css({
         top: os.top-20,
@@ -729,8 +742,6 @@
     for (var i = recentlyUsedEmojis.length-1; i >= 0; i--) {
       var emoji = findEmoji(recentlyUsedEmojis[i]);
       
-      
-
       emojis.push('<em><span class="emoji emoji-' + recentlyUsedEmojis[i] + '" data-shortcode="' + recentlyUsedEmojis[i] + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
     }
 
