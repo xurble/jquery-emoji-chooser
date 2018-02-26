@@ -29,6 +29,14 @@
     { name: 'symbol', label: 'Symbols' },
     { name: 'flag', label: 'Flags' }
   ];
+  
+  var skintones = [
+    "1F3FB",
+    "1F3FC",
+    "1F3FD",
+    "1F3FE",
+    "1F3FF"
+  ]
 
   function EmojiChooser( element, options ) {
 
@@ -77,6 +85,7 @@
     init: function() {
       this.active = false;
       this.addChooserIcon();
+      this.loadPrefs();
       this.createChooser();
       this.listen();
     },
@@ -105,6 +114,40 @@
           .css('backgroundColor', this.settings.iconBackgroundColor);
           this.$wrapper.append( this.$icon );
       }
+
+    },
+    
+    loadPrefs: function() {
+
+        if($.fn.emojiChooser.prefsLoaded) {
+            return;
+        }
+        
+        $.fn.emojiChooser.prefsLoaded = true;
+    
+        var localStorageSupport = (typeof(Storage) !== 'undefined') ? true : false;
+        
+        $.fn.emojiChooser.emojiPrefs = {
+            facepunch : "1F3FD"
+        };
+
+
+
+        $.each($.fn.emojiChooser.emojis, function(i, emoji) {
+
+
+            if (emoji.skintones) {
+                emoji.baseUnicode = emoji.unicode;
+
+                if($.fn.emojiChooser.emojiPrefs.hasOwnProperty(emoji.shortcode)) {
+                    emoji.unicode = emoji.unicode + '-' + $.fn.emojiChooser.emojiPrefs[emoji.shortcode];
+                    emoji.prefchosen = true;
+                }
+            }
+
+
+        });
+
 
     },
 
@@ -261,9 +304,31 @@
       } else {
         emojiSpan = clickTarget.parent().find('.emoji');
       }
+      
+      
+      var emojiShortcode = emojiSpan.data("shortcode");
 
-      var emojiShortcode = emojiSpan.attr('class').split('emoji-')[1];
-      var emojiUnicode = toUnicode(findEmoji(emojiShortcode).unicode);
+      var emoji = findEmoji(emojiShortcode);
+      
+      if (emojiSpan.hasClass("skinchooser")) {
+            emoji.prefchosen = true;
+            var pref = emojiSpan.data("pref");
+            if (pref=="") {
+                emoji.unicode = emoji.baseUnicode;
+            }
+            else {
+                emoji.unicode = emoji.baseUnicode + '-' +pref;
+            }
+            $(".emoji-" + emojiShortcode).html(getHtmlEntities(emoji.unicode));
+            
+            $("#skinprefs").fadeOut();
+      }
+      
+      if(emoji.skintones && !emoji.prefchosen) {
+            showPrefPane(emoji, emojiSpan);
+      }
+
+      var emojiUnicode = toUnicode(emoji.unicode);
 
       insertAtCaret(this.element, emojiUnicode);
       addToLocalStorage(emojiShortcode);
@@ -279,14 +344,15 @@
     },
 
     emojiMouseover: function(e) {
-      var emojiShortcode = $(e.target).parent().find('.emoji').attr('class').split('emoji-')[1];
+     
+      var emojiShortcode = $(e.target).parent().find('.emoji').data("shortcode");
+
       var $shortcode = $(e.target).parents('.emojiChooser').find('.shortcode');
       $shortcode.find('.random').hide();
 
-        var emoji = findEmoji(emojiShortcode);
+      var emoji = findEmoji(emojiShortcode);
 
-
-      $shortcode.find('.info').show().html('<div class="emoji emoji-' + emojiShortcode + '">'+getHtmlEntities(emoji.unicode)+'</div><em>' + emojiShortcode + '</em>');
+      $shortcode.find('.info').show().html('<div class="emoji emoji-' + emojiShortcode + '" data-shortcode="' + emojiShortcode + '">'+getHtmlEntities(emoji.unicode)+'</div><em>' + emojiShortcode + '</em>');
     },
 
     emojiMouseout: function(e) {
@@ -403,7 +469,7 @@
           var shortcode = emoji.shortcode;
 
           if ( shortcode.indexOf(searchTerm) > -1 ) {
-            results.push('<em><div class="emoji emoji-' + shortcode + '">'+getHtmlEntities(emoji.unicode)+'</div></em>');
+            results.push('<em><span class="emoji emoji-' + shortcode + '" data-shortcode="' + shortcode + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
           }
         });
         searchEmojiWrap.append(results.join(''));
@@ -485,7 +551,7 @@
     nodes.push('<input type="search" placeholder="Search...">');
     nodes.push('<div class="wrap" style="display:none;"><h1>Search Results</h1></div>');
     nodes.push('</section>');
-    
+
     // Recent Section, if localstorage support
     if (localStorageSupport) {
       var recentlyUsedEmojis = [];
@@ -510,10 +576,7 @@
         var emoji = findEmoji(recentlyUsedEmojis[i]);
         
         if (emoji != null) {
-
-
-
-            nodes.push('<em><span class="emoji emoji-' + recentlyUsedEmojis[i] + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
+            nodes.push('<em><span class="emoji emoji-' + recentlyUsedEmojis[i] + '" data-shortcode="' + recentlyUsedEmojis[i] + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
         }
       }
       nodes.push('</div></section>');
@@ -527,12 +590,12 @@
       nodes.push('<h1>' + categories[i].label + '</h1><div class="wrap">');
       for (var j = 0; j < category_length; j++) {
         var emoji = items[ categories[i].name ][ j ];
-
-
-        nodes.push('<em><span class="emoji emoji-' + emoji.shortcode + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
+        nodes.push('<em><span class="emoji emoji-' + emoji.shortcode + '" data-shortcode="' + emoji.shortcode + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
       }
       nodes.push('</div></section>');
     }
+
+
     nodes.push('</div>');
 
     // Shortcode section
@@ -540,7 +603,21 @@
     nodes.push('<em class="tabTitle">' + generateEmojiOfDay() + '</em>');
     nodes.push('</span><span class="info"></span></div>');
 
+
+    // skin tone chooser
+    nodes.push('<section id="skinprefs"><div class="skinprefbox">');
+    nodes.push('<em><span class="emoji skinchooser" id="pref-base" data-pref=""></span></em><span class="prefseparator"></span>');
+    for(var i =0; i < skintones.length ; i++) {
+        nodes.push('<em><span class="emoji skinchooser" id="pref-'+i+'" data-pref="'+skintones[i]+'"></span></em>');
+    }
+    nodes.push('<div class="prefarrow"></div></div></section>');
+
+
+
     nodes.push('</div>');
+    
+    
+    
     return nodes.join("\n");
   }
 
@@ -555,7 +632,7 @@
     var emojis = $.fn.emojiChooser.emojis;
     var i = Math.floor(Math.random() * (364 - 0) + 0);
     var emoji = emojis[i];
-    return 'Daily Emoji: <span class="eod"><span class="emoji emoji-' + emoji.name + '">'+getHtmlEntities(emoji.unicode)+'</span> <span class="emojiName">' + emoji.name + '</span></span>';
+    return 'Daily Emoji: <span class="eod"><span class="emoji emoji-' + emoji.shortcode + '" data-shortcode="' + emoji.name + '">'+getHtmlEntities(emoji.unicode)+'</span> <span class="emojiName">' + emoji.name + '</span></span>';
   }
 
   function findEmoji(emojiShortcode) {
@@ -598,6 +675,27 @@
     });
     return String.fromCodePoint.apply(null, codes);
   }
+  
+  function showPrefPane(emoji, emojiSpan) {
+    var os = $(emojiSpan).position();    
+        
+    
+    $("#pref-base").data("shortcode",emoji.shortcode).html(getHtmlEntities(emoji.baseUnicode));
+    
+    for(var i = 0; i < skintones.length; i++) {
+    
+        $("#pref-" + i).data("shortcode", emoji.shortcode).html(getHtmlEntities(emoji.baseUnicode + '-' + skintones[i]));
+    
+    }
+
+    
+
+    $("#skinprefs").css({
+        top: os.top-20,
+        left: os.left-100
+      }).fadeIn();
+
+  }
 
   function addToLocalStorage(emoji) {
     if(emoji==null) {
@@ -609,10 +707,10 @@
       recentlyUsedEmojis = JSON.parse(localStorage.emojis);
     }
 
-    // If already in recently used, move to front
+    // If already in recently used, leave
     var index = recentlyUsedEmojis.indexOf(emoji);
     if (index > -1) {
-      recentlyUsedEmojis.splice(index, 1);
+      return;
     }
     recentlyUsedEmojis.push(emoji);
 
@@ -633,7 +731,7 @@
       
       
 
-      emojis.push('<em><span class="emoji emoji-' + recentlyUsedEmojis[i] + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
+      emojis.push('<em><span class="emoji emoji-' + recentlyUsedEmojis[i] + '" data-shortcode="' + recentlyUsedEmojis[i] + '">'+getHtmlEntities(emoji.unicode)+'</span></em>');
     }
 
     // Fix height as emojis are added
