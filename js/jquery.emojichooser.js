@@ -20,14 +20,14 @@
       MAX_ICON_HEIGHT = 50;
 
   var categories = [
-    { name: 'people', label: 'People' },
-    { name: 'nature', label: 'Nature' },
-    { name: 'food', label: 'Food' },
-    { name: 'activity', label: 'Activities' },
-    { name: 'travel', label: 'Travel & Places' },
-    { name: 'object', label: 'Objects' },
-    { name: 'symbol', label: 'Symbols' },
-    { name: 'flag', label: 'Flags' }
+    { name: 'people', label: 'People', icon: '😀' },
+    { name: 'nature', label: 'Nature', icon: '🐥' },
+    { name: 'food', label: 'Food', icon: '🍔' },
+    { name: 'activity', label: 'Activities', icon: '🏀' },
+    { name: 'travel', label: 'Travel & Places', icon: '🗺' },
+    { name: 'object', label: 'Objects', icon: '💡' },
+    { name: 'symbol', label: 'Symbols', icon: '⚛️' },
+    { name: 'flag', label: 'Flags', icon: '🏳️' }
   ];
   
   var skintones = [
@@ -603,7 +603,7 @@
 
     // Recent Tab, if localstorage support
     if (localStorageSupport) {
-      nodes.push('<div class="tab active" data-tab="recent"><div class="emoji emoji-tab-recent"></div></div>');
+      nodes.push('<div class="tab active" data-tab="recent"><div class="emoji emoji-tab-recent">🕝</div></div>');
     }
     
     // Emoji category tabs
@@ -615,7 +615,7 @@
       categories[i].name +
       '"><div class="emoji emoji-tab-' +
       categories[i].name +
-      '"></div></div>');
+      '">' + categories[i].icon + '</div></div>');
     }
     nodes.push('</nav>');
     nodes.push('<div class="sections">');
