@@ -24,7 +24,7 @@
     { name: 'nature', label: 'Nature', icon: '🐥' },
     { name: 'food', label: 'Food', icon: '🍔' },
     { name: 'activity', label: 'Activities', icon: '🏀' },
-    { name: 'travel', label: 'Travel & Places', icon: '🗺' },
+    { name: 'travel', label: 'Travel & Places', icon: '🛩' },
     { name: 'object', label: 'Objects', icon: '💡' },
     { name: 'symbol', label: 'Symbols', icon: '⚛️' },
     { name: 'flag', label: 'Flags', icon: '🏳️' }
