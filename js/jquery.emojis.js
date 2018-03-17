@@ -951,7 +951,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "speaking_head_in_silhouette",
-    "unicode": "1F5E3",
+    "unicode": "1F5E3-20E3",
     "shortcode": "speaking_head_in_silhouette",
     "description": " Speaking Head in Silhouette",
     "skintones": false,
@@ -8032,7 +8032,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "left_speech_bubble",
-    "unicode": "1F5E8",
+    "unicode": "1F5E8-20E3",
     "shortcode": "left_speech_bubble",
     "description": "LEFT SPEECH BUBBLE"
   },
