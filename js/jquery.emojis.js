@@ -1589,7 +1589,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "dark_sunglasses",
-    "unicode": "1F576",
+    "unicode": "1F576-FE0F",
     "shortcode": "dark_sunglasses",
     "description": "Dark Sunglasses",
     "skintones": false,
@@ -3616,7 +3616,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "admission_tickets",
-    "unicode": "1F39F",
+    "unicode": "1F39F-FE0F",
     "shortcode": "admission_tickets",
     "description": "Admission Tickets",
     "skintones": false,
@@ -4328,7 +4328,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "camping",
-    "unicode": "1F3D5",
+    "unicode": "1F3D5-FE0F",
     "shortcode": "camping",
     "description": "Camping",
     "skintones": false,
@@ -4344,7 +4344,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "national_park",
-    "unicode": "1F3DE",
+    "unicode": "1F3DE-FE0F",
     "shortcode": "national_park",
     "description": "National Park",
     "skintones": false,
@@ -4352,7 +4352,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "motorway",
-    "unicode": "1F6E3",
+    "unicode": "1F6E3-FE0F",
     "shortcode": "motorway",
     "description": "Motorway",
     "skintones": false,
@@ -4360,7 +4360,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "railway_track",
-    "unicode": "1F6E4",
+    "unicode": "1F6E4-FE0F",
     "shortcode": "railway_track",
     "description": "Railway Track",
     "skintones": false,
@@ -4384,7 +4384,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "desert",
-    "unicode": "1F3DC",
+    "unicode": "1F3DC-FE0F",
     "shortcode": "desert",
     "description": "Desert",
     "skintones": false,
@@ -4392,7 +4392,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "beach_with_umbrella",
-    "unicode": "1F3D6",
+    "unicode": "1F3D6-FE0F",
     "shortcode": "beach_with_umbrella",
     "description": "Beach With Umbrella",
     "skintones": false,
@@ -4400,7 +4400,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "desert_island",
-    "unicode": "1F3DD",
+    "unicode": "1F3DD-FE0F",
     "shortcode": "desert_island",
     "description": "Desert Island",
     "skintones": false,
@@ -4424,7 +4424,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "cityscape",
-    "unicode": "1F3D9",
+    "unicode": "1F3D9-FE0F",
     "shortcode": "cityscape",
     "description": "CITYSCAPE",
     "skintones": false,
@@ -4488,7 +4488,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "house_buildings",
-    "unicode": "1F3D8",
+    "unicode": "1F3D8-FE0F",
     "shortcode": "house_buildings",
     "description": "EUROPEAN CASTLE",
     "skintones": false,
@@ -4512,7 +4512,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "stadium",
-    "unicode": "1F3DF",
+    "unicode": "1F3DF-FE0F",
     "shortcode": "stadium",
     "description": "Stadium",
     "skintones": false,
@@ -4544,7 +4544,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "derelict_house_building",
-    "unicode": "1F3DA",
+    "unicode": "1F3DA-FE0F-FE0F",
     "shortcode": "derelict_house_building",
     "description": "Derelict House Building",
     "skintones": false,
@@ -4680,7 +4680,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "shinto_shrine",
-    "unicode": "26E9",
+    "unicode": "26E9-FE0F",
     "shortcode": "shinto_shrine",
     "description": "Shinto Shrine",
     "skintones": false,
@@ -4720,7 +4720,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "keyboard",
-    "unicode": "2328",
+    "unicode": "2328-FE0F",
     "shortcode": "keyboard",
     "description": "KEYBOARD",
     "skintones": false,
@@ -4728,7 +4728,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "desktop_computer",
-    "unicode": "1F5A5",
+    "unicode": "1F5A5-FE0F",
     "shortcode": "desktop_computer",
     "description": "DESKTOP COMPUTER",
     "skintones": false,
@@ -4736,7 +4736,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "printer",
-    "unicode": "1F5A8",
+    "unicode": "1F5A8-FE0F",
     "shortcode": "printer",
     "description": "PRINTER",
     "skintones": false,
@@ -4744,7 +4744,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "three_button_mouse",
-    "unicode": "1F5B1",
+    "unicode": "1F5B1-FE0F",
     "shortcode": "three_button_mouse",
     "description": "THREE BUTTON MOUSE",
     "skintones": false,
@@ -4752,7 +4752,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "trackball",
-    "unicode": "1F5B2",
+    "unicode": "1F5B2-FE0F",
     "shortcode": "trackball",
     "description": "TRACKBALL",
     "skintones": false,
@@ -4760,7 +4760,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "joystick",
-    "unicode": "1F579",
+    "unicode": "1F579-FE0F",
     "shortcode": "joystick",
     "description": "JOYSTICK",
     "skintones": false,
@@ -4768,7 +4768,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "compression",
-    "unicode": "1F5DC",
+    "unicode": "1F5DC-FE0F",
     "shortcode": "compression",
     "description": "COMPRESSION",
     "skintones": false,
@@ -4808,7 +4808,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "vhs",
-    "unicode": "1F4FC",
+    "unicode": "1F4FC-FE0F",
     "shortcode": "vhs",
     "description": "VIDEOCASSETTE",
     "skintones": false,
@@ -4848,7 +4848,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "film_projector",
-    "unicode": "1F4FD",
+    "unicode": "1F4FD-FE0F",
     "shortcode": "film_projector",
     "description": "FILM PROJECTOR",
     "skintones": false,
@@ -4856,7 +4856,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "film_frames",
-    "unicode": "1F39E",
+    "unicode": "1F39E-FE0F",
     "shortcode": "film_frames",
     "description": "FILM FRAMES",
     "skintones": false,
@@ -4912,7 +4912,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "studio_microphone",
-    "unicode": "1F399",
+    "unicode": "1F399-FE0F",
     "shortcode": "studio_microphone",
     "description": "STUDIO MICROPHONE",
     "skintones": false,
@@ -4920,7 +4920,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "level_slider",
-    "unicode": "1F39A",
+    "unicode": "1F39A-FE0F",
     "shortcode": "level_slider",
     "description": "LEVEL SLIDER",
     "skintones": false,
@@ -4928,7 +4928,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "control_knobs",
-    "unicode": "1F39B",
+    "unicode": "1F39B-FE0F",
     "shortcode": "control_knobs",
     "description": "CONTROL KNOBS",
     "skintones": false,
@@ -4960,7 +4960,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "mantelpiece_clock",
-    "unicode": "1F570",
+    "unicode": "1F570-FE0F",
     "shortcode": "mantelpiece_clock",
     "description": "MANTELPIECE CLOCK",
     "skintones": false,
@@ -4984,7 +4984,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "satellite",
-    "unicode": "1F6F0",
+    "unicode": "1F6F0-FE0F",
     "shortcode": "satellite",
     "description": "SATELLITE",
     "skintones": false,
@@ -5024,7 +5024,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "candle",
-    "unicode": "1F56F",
+    "unicode": "1F56F-FE0F",
     "shortcode": "candle",
     "description": "CANDLE",
     "skintones": false,
@@ -5032,7 +5032,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "wastebasket",
-    "unicode": "1F5D1",
+    "unicode": "1F5D1-FE0F",
     "shortcode": "wastebasket",
     "description": "WASTEBASKET",
     "skintones": false,
@@ -5040,7 +5040,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "oil_drum",
-    "unicode": "1F6E2",
+    "unicode": "1F6E2-FE0F",
     "shortcode": "oil_drum",
     "description": "OIL DRUM",
     "skintones": false,
@@ -5112,7 +5112,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "scales",
-    "unicode": "2696",
+    "unicode": "2696-FE0F",
     "shortcode": "scales",
     "description": "SCALES",
     "skintones": false,
@@ -5136,7 +5136,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "hammer_and_pick",
-    "unicode": "2692",
+    "unicode": "2692-FE0F",
     "shortcode": "hammer_and_pick",
     "description": "HAMMER AND PICK",
     "skintones": false,
@@ -5144,7 +5144,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "hammer_and_wrench",
-    "unicode": "1F6E0",
+    "unicode": "1F6E0-FE0F",
     "shortcode": "hammer_and_wrench",
     "description": "HAMMER AND WRENCH",
     "skintones": false,
@@ -5152,7 +5152,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "pick",
-    "unicode": "26CF",
+    "unicode": "26CF-FE0F",
     "shortcode": "pick",
     "description": "PICK",
     "skintones": false,
@@ -5168,7 +5168,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "gear",
-    "unicode": "2699",
+    "unicode": "2699-FE0F",
     "shortcode": "gear",
     "description": "GEAR",
     "skintones": false,
@@ -5176,7 +5176,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "chains",
-    "unicode": "26D3",
+    "unicode": "26D3-FE0F",
     "shortcode": "chains",
     "description": "CHAINS",
     "skintones": false,
@@ -5208,7 +5208,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "dagger_knife",
-    "unicode": "1F5E1",
+    "unicode": "1F5E1-FE0F",
     "shortcode": "dagger_knife",
     "description": "DAGGER KNIFE",
     "skintones": false,
@@ -5216,7 +5216,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "crossed_swords",
-    "unicode": "2694",
+    "unicode": "2694-FE0F",
     "shortcode": "crossed_swords",
     "description": "CROSSED SWORDS",
     "skintones": false,
@@ -5224,7 +5224,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "shield",
-    "unicode": "1F6E1",
+    "unicode": "1F6E1-FE0F",
     "shortcode": "shield",
     "description": "SHIELD",
     "skintones": false,
@@ -5240,7 +5240,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "skull_and_crossbones",
-    "unicode": "2620",
+    "unicode": "2620-FE0F",
     "shortcode": "skull_and_crossbones",
     "description": "SKULL AND CROSSBONES",
     "skintones": false,
@@ -5248,7 +5248,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "coffin",
-    "unicode": "26B0",
+    "unicode": "26B0-FE0F",
     "shortcode": "coffin",
     "description": "COFFIN",
     "skintones": false,
@@ -5256,7 +5256,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "funeral_urn",
-    "unicode": "26B1",
+    "unicode": "26B1-FE0F",
     "shortcode": "funeral_urn",
     "description": "FUNERAL URN",
     "skintones": false,
@@ -5296,7 +5296,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "alembic",
-    "unicode": "2697",
+    "unicode": "2697-FE0F",
     "shortcode": "alembic",
     "description": "ALEMBIC",
     "skintones": false,
@@ -5320,7 +5320,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "hole",
-    "unicode": "1F573",
+    "unicode": "1F573-FE0F",
     "shortcode": "hole",
     "description": "HOLE",
     "skintones": false,
@@ -5344,7 +5344,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "thermometer",
-    "unicode": "1F321",
+    "unicode": "1F321-FE0F",
     "shortcode": "thermometer",
     "description": "THERMOMETER",
     "skintones": false,
@@ -5352,7 +5352,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "label",
-    "unicode": "1F3F7",
+    "unicode": "1F3F7-FE0F",
     "shortcode": "label",
     "description": "LABEL",
     "skintones": false,
@@ -5400,7 +5400,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "old_key",
-    "unicode": "1F5DD",
+    "unicode": "1F5DD-FE0F",
     "shortcode": "old_key",
     "description": "OLD KEY",
     "skintones": false,
@@ -5408,7 +5408,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "couch_and_lamp",
-    "unicode": "1F6CB",
+    "unicode": "1F6CB-FE0F",
     "shortcode": "couch_and_lamp",
     "description": "COUCH AND LAMP",
     "skintones": false,
@@ -5424,7 +5424,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "bed",
-    "unicode": "1F6CF",
+    "unicode": "1F6CF-FE0F",
     "shortcode": "bed",
     "description": "BED",
     "skintones": false,
@@ -5440,7 +5440,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "bellhop_bell",
-    "unicode": "1F6CE",
+    "unicode": "1F6CE-FE0F",
     "shortcode": "bellhop_bell",
     "description": "BELLHOP BELL",
     "skintones": false,
@@ -5448,7 +5448,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "frame_with_picture",
-    "unicode": "1F5BC",
+    "unicode": "1F5BC-FE0F",
     "shortcode": "frame_with_picture",
     "description": "FRAME WITH PICTURE",
     "skintones": false,
@@ -5456,7 +5456,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "world_map",
-    "unicode": "1F5FA",
+    "unicode": "1F5FA-FE0F",
     "shortcode": "world_map",
     "description": "WORLD MAP",
     "skintones": false,
@@ -5464,7 +5464,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "umbrella_on_ground",
-    "unicode": "26F1",
+    "unicode": "26F1-FE0F",
     "shortcode": "umbrella_on_ground",
     "description": "UMBRELLA ON GROUND",
     "skintones": false,
@@ -5480,7 +5480,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "shopping_bags",
-    "unicode": "1F6CD",
+    "unicode": "1F6CD-FE0F",
     "shortcode": "shopping_bags",
     "description": "SHOPPING BAGS",
     "skintones": false,
@@ -5752,7 +5752,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "spiral_calendar_pad",
-    "unicode": "1F5D3",
+    "unicode": "1F5D3-FE0F",
     "shortcode": "spiral_calendar_pad",
     "description": "SPIRAL CALENDAR PAD",
     "skintones": false,
@@ -5768,7 +5768,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "card_file_box",
-    "unicode": "1F5C3",
+    "unicode": "1F5C3-FE0F",
     "shortcode": "card_file_box",
     "description": "CARD FILE BOX",
     "skintones": false,
@@ -5784,7 +5784,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "file_cabinet",
-    "unicode": "1F5C4",
+    "unicode": "1F5C4-FE0F",
     "shortcode": "file_cabinet",
     "description": "FILE CABINET",
     "skintones": false,
@@ -5800,7 +5800,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "spiral_note_pad",
-    "unicode": "1F5D2",
+    "unicode": "1F5D2-FE0F",
     "shortcode": "spiral_note_pad",
     "description": "SPIRAL NOTE PAD",
     "skintones": false,
@@ -5824,7 +5824,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "card_index_dividers",
-    "unicode": "1F5C2",
+    "unicode": "1F5C2-FE0F",
     "shortcode": "card_index_dividers",
     "description": "CARD INDEX DIVIDERS",
     "skintones": false,
@@ -5832,7 +5832,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "rolled_up_newspaper",
-    "unicode": "1F5DE",
+    "unicode": "1F5DE-FE0F",
     "shortcode": "rolled_up_newspaper",
     "description": "ROLLED-UP NEWSPAPER",
     "skintones": false,
@@ -5936,7 +5936,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "linked_paperclips",
-    "unicode": "1F587",
+    "unicode": "1F587-FE0F",
     "shortcode": "linked_paperclips",
     "description": "LINKED PAPERCLIPS",
     "skintones": false,
@@ -5944,7 +5944,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "scissors",
-    "unicode": "2702",
+    "unicode": "2702-FE0F",
     "shortcode": "scissors",
     "description": "BLACK SCISSORS",
     "skintones": false,
@@ -5992,7 +5992,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "waving_white_flag",
-    "unicode": "1F3F3",
+    "unicode": "1F3F3-FE0F",
     "shortcode": "waving_white_flag",
     "description": "WAVING WHITE FLAG",
     "skintones": false,
@@ -6040,7 +6040,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "lower_left_ballpoint_pen",
-    "unicode": "1F58A",
+    "unicode": "1F58A-FE0F",
     "shortcode": "lower_left_ballpoint_pen",
     "description": "LOWER LEFT BALLPOINT PEN",
     "skintones": false,
@@ -6048,7 +6048,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "lower_left_fountain_pen",
-    "unicode": "1F58B",
+    "unicode": "1F58B-FE0F",
     "shortcode": "lower_left_fountain_pen",
     "description": "LOWER LEFT FOUNTAIN PEN",
     "skintones": false,
@@ -6080,7 +6080,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "lower_left_crayon",
-    "unicode": "1F58D",
+    "unicode": "1F58D-FE0F",
     "shortcode": "lower_left_crayon",
     "description": "LOWER LEFT CRAYON",
     "skintones": false,
@@ -6088,7 +6088,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "lower_left_paintbrush",
-    "unicode": "1F58C",
+    "unicode": "1F58C-FE0F",
     "shortcode": "lower_left_paintbrush",
     "description": "LOWER LEFT PAINTBRUSH",
     "skintones": false,
@@ -6232,7 +6232,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "peace_symbol",
-    "unicode": "262E",
+    "unicode": "262E-FE0F",
     "shortcode": "peace_symbol",
     "description": "PEACE SYMBOL",
     "skintones": false,
@@ -6248,7 +6248,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "star_and_crescent",
-    "unicode": "262A",
+    "unicode": "262A-FE0F",
     "shortcode": "star_and_crescent",
     "description": "STAR AND CRESCENT",
     "skintones": false,
@@ -6256,7 +6256,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "om_symbol",
-    "unicode": "1F549",
+    "unicode": "1F549-FE0F",
     "shortcode": "om_symbol",
     "description": "OM SYMBOL",
     "skintones": false,
@@ -6264,7 +6264,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "wheel_of_dharma",
-    "unicode": "2638",
+    "unicode": "2638-FE0F",
     "shortcode": "wheel_of_dharma",
     "description": "WHEEL OF DHARMA",
     "skintones": false,
@@ -6304,7 +6304,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "orthodox_cross",
-    "unicode": "2626",
+    "unicode": "2626-FE0F",
     "shortcode": "orthodox_cross",
     "description": "ORTHODOX CROSS",
     "skintones": false,
@@ -6432,7 +6432,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "atom_symbol",
-    "unicode": "269B",
+    "unicode": "269B-FE0F",
     "shortcode": "atom_symbol",
     "description": "ATOM SYMBOL",
     "skintones": false,
@@ -6456,7 +6456,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "radioactive_sign",
-    "unicode": "2622",
+    "unicode": "2622-FE0F",
     "shortcode": "radioactive_sign",
     "description": "RADIOACTIVE SIGN",
     "skintones": false,
@@ -6464,7 +6464,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "biohazard_sign",
-    "unicode": "2623",
+    "unicode": "2623-FE0F",
     "shortcode": "biohazard_sign",
     "description": "BIOHAZARD SIGN",
     "skintones": false,
@@ -6848,7 +6848,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "fleur_de_lis",
-    "unicode": "269C",
+    "unicode": "269C-FE0F",
     "shortcode": "fleur_de_lis",
     "description": "FLEUR-DE-LIS",
     "skintones": false,
@@ -7176,7 +7176,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "zero",
-    "unicode": "0030-20E3-FE0F",
+    "unicode": "0030-FE0F-20E3",
     "shortcode": "zero",
     "description": "KEYCAP 0",
     "skintones": false,
@@ -7184,7 +7184,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "one",
-    "unicode": "0031-20E3-FE0F",
+    "unicode": "0031-FE0F-20E3",
     "shortcode": "one",
     "description": "KEYCAP 1",
     "skintones": false,
@@ -7192,7 +7192,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "two",
-    "unicode": "0032-20E3-FE0F",
+    "unicode": "0032-FE0F-20E3",
     "shortcode": "two",
     "description": "KEYCAP 2",
     "skintones": false,
@@ -7200,7 +7200,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "three",
-    "unicode": "0033-20E3-FE0F",
+    "unicode": "0033-FE0F-20E3",
     "shortcode": "three",
     "description": "KEYCAP 3",
     "skintones": false,
@@ -7208,7 +7208,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "four",
-    "unicode": "0034-20E3-FE0F",
+    "unicode": "0034-FE0F-20E3",
     "shortcode": "four",
     "description": "KEYCAP 4",
     "skintones": false,
@@ -7216,7 +7216,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "five",
-    "unicode": "0035-20E3-FE0F",
+    "unicode": "0035-FE0F-20E3",
     "shortcode": "five",
     "description": "KEYCAP 5",
     "skintones": false,
@@ -7224,7 +7224,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "six",
-    "unicode": "0036-20E3-FE0F",
+    "unicode": "0036-FE0F-20E3",
     "shortcode": "six",
     "description": "KEYCAP 6",
     "skintones": false,
@@ -7232,7 +7232,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "seven",
-    "unicode": "0037-20E3-FE0F",
+    "unicode": "0037-FE0F-20E3",
     "shortcode": "seven",
     "description": "KEYCAP 7",
     "skintones": false,
@@ -7240,7 +7240,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "eight",
-    "unicode": "0038-20E3-FE0F",
+    "unicode": "0038-FE0F-20E3",
     "shortcode": "eight",
     "description": "KEYCAP 8",
     "skintones": false,
@@ -7248,7 +7248,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "nine",
-    "unicode": "0039-20E3-FE0F",
+    "unicode": "0039-FE0F-20E3",
     "shortcode": "nine",
     "description": "KEYCAP 9",
     "skintones": false,
@@ -7522,7 +7522,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "hash",
-    "unicode": "0023-20E3-FE0F",
+    "unicode": "0023-FE0F-20E3",
     "shortcode": "hash",
     "description": "HASH KEY",
     "skintones": false,
@@ -8018,13 +8018,13 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "right_anger_bubble",
-    "unicode": "1F5EF",
+    "unicode": "1F5EF-FE0F",
     "shortcode": "right_anger_bubble",
     "description": "RIGHT ANGER BUBBLE"
   },
   {
     "name": "speech_balloon",
-    "unicode": "1F4AC",
+    "unicode": "1F4AC-FE0F",
     "shortcode": "speech_balloon",
     "description": "SPEECH BALLOON",
     "skintones": false,
