@@ -919,7 +919,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "eye",
-    "unicode": "1F441",
+    "unicode": "1F441-FE0F",
     "shortcode": "eye",
     "description": "EYE",
     "skintones": false,
@@ -2255,7 +2255,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "shamrock",
-    "unicode": "2618",
+    "unicode": "2618-FE0F",
     "shortcode": "shamrock",
     "description": "Shamrock",
     "skintones": false,
@@ -2407,7 +2407,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "spider_web",
-    "unicode": "1F578",
+    "unicode": "1F578-FE0F",
     "shortcode": "spider_web",
     "description": "Spider Web",
     "skintones": false,
@@ -2584,7 +2584,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "comet",
-    "unicode": "2604",
+    "unicode": "2604-FE0F",
     "shortcode": "comet",
     "description": "Comet",
     "skintones": false,
@@ -2600,7 +2600,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "mostly_sunny",
-    "unicode": "1F324",
+    "unicode": "1F324-FE0F",
     "shortcode": "mostly_sunny",
     "description": "White Sun With Small Cloud",
     "skintones": false,
@@ -2616,7 +2616,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "barely_sunny",
-    "unicode": "1F325",
+    "unicode": "1F325-FE0F",
     "shortcode": "barely_sunny",
     "description": "White Sun Behind Cloud",
     "skintones": false,
@@ -2624,7 +2624,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "partly_sunny_rain",
-    "unicode": "1F326",
+    "unicode": "1F326-FE0F",
     "shortcode": "partly_sunny_rain",
     "description": "White Sun Behind Cloud With Rain",
     "skintones": false,
@@ -2640,7 +2640,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "rain_cloud",
-    "unicode": "1F327",
+    "unicode": "1F327-FE0F",
     "shortcode": "rain_cloud",
     "description": "Cloud With Rain",
     "skintones": false,
@@ -2648,7 +2648,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "thunder_cloud_and_rain",
-    "unicode": "26C8",
+    "unicode": "26C8-FE0F",
     "shortcode": "thunder_cloud_and_rain",
     "description": "Thunder Cloud and Rain",
     "skintones": false,
@@ -2656,7 +2656,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "lightning",
-    "unicode": "1F329",
+    "unicode": "1F329-FE0F",
     "shortcode": "lightning",
     "description": "Cloud With Lightning",
     "skintones": false,
@@ -2696,7 +2696,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "snow_cloud",
-    "unicode": "1F328",
+    "unicode": "1F328-FE0F",
     "shortcode": "snow_cloud",
     "description": "Cloud With Snow",
     "skintones": false,
@@ -2712,7 +2712,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "wind_blowing_face",
-    "unicode": "1F32C",
+    "unicode": "1F32C-FE0F",
     "shortcode": "wind_blowing_face",
     "description": "Wind Blowing Face",
     "skintones": false,
@@ -2728,7 +2728,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "tornado",
-    "unicode": "1F32A",
+    "unicode": "1F32A-FE0F",
     "shortcode": "tornado",
     "description": "Cloud With Tornado",
     "skintones": false,
@@ -2736,7 +2736,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "fog",
-    "unicode": "1F32B",
+    "unicode": "1F32B-FE0F",
     "shortcode": "fog",
     "description": "Fog",
     "skintones": false,
@@ -2896,7 +2896,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "hot_pepper",
-    "unicode": "1F336",
+    "unicode": "1F336-FE0F",
     "shortcode": "hot_pepper",
     "description": "Hot Pepper",
     "skintones": false,
@@ -3304,7 +3304,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "knife_fork_plate",
-    "unicode": "1F37D",
+    "unicode": "1F37D-FE0F",
     "shortcode": "knife_fork_plate",
     "description": "Fork and Knife With Plate",
     "skintones": false,
@@ -3440,7 +3440,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "skier",
-    "unicode": "26F7",
+    "unicode": "26F7-FE0F",
     "shortcode": "skier",
     "description": "Skier",
     "skintones": false,
@@ -3456,7 +3456,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "ice_skate",
-    "unicode": "26F8",
+    "unicode": "26F8-FE0F",
     "shortcode": "ice_skate",
     "description": "Ice Skate",
     "skintones": false,
@@ -3584,7 +3584,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "medal",
-    "unicode": "1F396",
+    "unicode": "1F396-FE0F",
     "shortcode": "medal",
     "description": "Military Medal",
     "skintones": false,
@@ -3592,7 +3592,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "reminder_ribbon",
-    "unicode": "1F397",
+    "unicode": "1F397-FE0F",
     "shortcode": "reminder_ribbon",
     "description": "Reminder Ribbon",
     "skintones": false,
@@ -3600,7 +3600,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "rosette",
-    "unicode": "1F3F5",
+    "unicode": "1F3F5-FE0F",
     "shortcode": "rosette",
     "description": "Rosette",
     "skintones": false,
@@ -3872,7 +3872,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "racing_motorcycle",
-    "unicode": "1F3CD",
+    "unicode": "1F3CD-FE0F",
     "shortcode": "racing_motorcycle",
     "description": "Racing Motorcycle",
     "skintones": false,
@@ -4056,7 +4056,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "small_airplane",
-    "unicode": "1F6E9",
+    "unicode": "1F6E9-FE0F",
     "shortcode": "small_airplane",
     "description": "Small Airplane",
     "skintones": false,
@@ -4096,7 +4096,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "motor_boat",
-    "unicode": "1F6E5",
+    "unicode": "1F6E5-FE0F",
     "shortcode": "motor_boat",
     "description": "Motor Boat",
     "skintones": false,
@@ -4112,7 +4112,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "ferry",
-    "unicode": "26F4",
+    "unicode": "26F4-FE0F",
     "shortcode": "ferry",
     "description": "Ferry",
     "skintones": false,
@@ -4240,7 +4240,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "building_construction",
-    "unicode": "1F3D7",
+    "unicode": "1F3D7-FE0F",
     "shortcode": "building_construction",
     "description": "Building Construction",
     "skintones": false,
@@ -4288,7 +4288,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "mountain",
-    "unicode": "26F0",
+    "unicode": "26F0-FE0F",
     "shortcode": "mountain",
     "description": "Mountain",
     "skintones": false,
@@ -4296,7 +4296,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "snow_capped_mountain",
-    "unicode": "1F3D4",
+    "unicode": "1F3D4-FE0F",
     "shortcode": "snow_capped_mountain",
     "description": "Snow Capped Mountain",
     "skintones": false,
