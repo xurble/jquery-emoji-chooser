@@ -1066,7 +1066,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F575",
     "shortcode": "sleuth_or_spy",
     "description": "Sleuth Or Spy",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1082,7 +1082,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F47C",
     "shortcode": "angel",
     "description": "BABY ANGEL",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1090,7 +1090,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F478",
     "shortcode": "princess",
     "description": "PRINCESS",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1098,7 +1098,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F470",
     "shortcode": "bride_with_veil",
     "description": "BRIDE WITH VEIL",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1106,7 +1106,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F6B6",
     "shortcode": "walking",
     "description": "PEDESTRIAN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1114,7 +1114,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F3C3",
     "shortcode": "runner",
     "description": "RUNNER",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1122,7 +1122,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F483",
     "shortcode": "dancer",
     "description": "DANCER",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1162,7 +1162,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F647",
     "shortcode": "bow",
     "description": "PERSON BOWING DEEPLY",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1170,7 +1170,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F481",
     "shortcode": "information_desk_person",
     "description": "INFORMATION DESK PERSON",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1178,7 +1178,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F645",
     "shortcode": "no_good",
     "description": "FACE WITH NO GOOD GESTURE",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1186,7 +1186,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F646",
     "shortcode": "ok_woman",
     "description": "FACE WITH OK GESTURE",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1194,7 +1194,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F64B",
     "shortcode": "raising_hand",
     "description": "HAPPY PERSON RAISING ONE HAND",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1202,7 +1202,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F64E",
     "shortcode": "person_with_pouting_face",
     "description": "PERSON WITH POUTING FACE",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1210,7 +1210,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F64D",
     "shortcode": "person_frowning",
     "description": "PERSON FROWNING",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1218,7 +1218,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F487",
     "shortcode": "haircut",
     "description": "HAIRCUT",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1226,7 +1226,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F486",
     "shortcode": "massage",
     "description": "FACE MASSAGE",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
