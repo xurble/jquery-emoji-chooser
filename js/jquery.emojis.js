@@ -8032,7 +8032,7 @@ $.fn.emojiChooser.emojis = [
   },
   {
     "name": "left_speech_bubble",
-    "unicode": "1F5E8-20E3",
+    "unicode": "1F5E8-FE0F",
     "shortcode": "left_speech_bubble",
     "description": "LEFT SPEECH BUBBLE"
   },
