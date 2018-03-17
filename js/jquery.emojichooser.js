@@ -145,7 +145,7 @@
             if (emoji.skintones) {
                 emoji.baseUnicode = emoji.unicode;
 
-                if($.fn.emojiChooser.emojiPrefs.hasOwnProperty(emoji.shortcode)) {
+                if($.fn.emojiChooser.emojiPrefs.hasOwnProperty(emoji.shortcode) && $.fn.emojiChooser.emojiPrefs[emoji.shortcode] != "") {
                     emoji.unicode = emoji.unicode + '-' + $.fn.emojiChooser.emojiPrefs[emoji.shortcode];
                     emoji.prefchosen = true;
                 }
@@ -190,6 +190,35 @@
       return this;
     },
 
+
+    hidePrefPane: function () {
+        $("#skinprefs").fadeOut();
+    },
+
+    showPrefPane: function (emoji, emojiSpan) {
+    
+        var os = $(emojiSpan).position();    
+
+        $("#pref-base").data("shortcode",emoji.shortcode).html(getHtmlEntities(emoji.baseUnicode));
+
+        for(var i = 0; i < skintones.length; i++) {
+            $("#pref-" + i).data("shortcode", emoji.shortcode).html(getHtmlEntities(emoji.baseUnicode + '-' + skintones[i]));
+        }
+
+        setTimeout(function(){  // we do this in a set timeout to stop the regular click handler hiding it as soon as it is shown
+            $("#skinprefs").css({
+                top: os.top-20,
+                left: os.left-100
+              }).fadeIn();
+        
+        },200);
+
+
+        
+
+    },
+
+
     listen: function() {
       // If the button is being used, wrapper has not been set,
       //    and will not need a listener
@@ -200,6 +229,7 @@
       }
 
       // Click event for emoji
+      this.$chooser.on('mousedown', 'em', $.proxy(this.emojiClickedStarted, this));
       this.$chooser.on('click', 'em', $.proxy(this.emojiClicked, this));
 
       // Hover event for emoji
@@ -303,7 +333,17 @@
       }
     },
 
+    emojiClickedStarted: function(e) {
+       this.clickStarted = Date.now();
+        
+    },
+    
+    
     emojiClicked: function(e) { var clickTarget = $(e.target);
+    
+    
+      var clickLen = Date.now() - this.clickStarted;
+    
       var emojiSpan;
       if (clickTarget.is('em')) {
         emojiSpan = clickTarget.find('span');
@@ -341,9 +381,11 @@
 
       }
       
-      if(emoji.skintones && !emoji.prefchosen) {
-            showPrefPane(emoji, emojiSpan);
+      if(emoji.skintones && (!emoji.prefchosen || clickLen > 500)) {
+            this.showPrefPane(emoji, emojiSpan);
             return;
+      } else {
+        this.hidePrefPane();
       }
 
       var emojiUnicode = toUnicode(emoji.unicode);
@@ -438,27 +480,41 @@
     emojiScroll: function(e) {
       var sections = $('section');
       $.each(sections, function(key, value) {
+      
+        
+      
         var section = sections[key];
-        var offsetFromTop = $(section).position().top;
+        
+        if (section.hasClass("tab")) {
+        
+            var offsetFromTop = $(section).position().top;
 
-        if (section.className == 'search' || (section.className == 'people' && offsetFromTop > 0)) {
-          $(section).parents('.emojiChooser').find('nav tab.recent').addClass('active');
-          return;
-        }
+            if (section.className == 'search' || (section.className == 'people' && offsetFromTop > 0)) {
+              $(section).parents('.emojiChooser').find('nav tab.recent').addClass('active');
+              return;
+            }
 
-        if (offsetFromTop <= 0) {
-          $(section).parents('.emojiChooser').find('nav .tab').removeClass('active');
-          $(section).parents('.emojiChooser').find('nav .tab[data-tab=' + section.className + ']').addClass('active');
+            if (offsetFromTop <= 0) {
+              $(section).parents('.emojiChooser').find('nav .tab').removeClass('active');
+              $(section).parents('.emojiChooser').find('nav .tab[data-tab=' + section.className + ']').addClass('active');
+            }
         }
       });
+      this.hidePrefPane();
     },
 
     chooserClicked: function(e) {
       e.stopPropagation();
+    
+      if ($("#skinprefs").is(":visible")) {
+        this.hidePrefPane();
+      }
+
     },
 
     clickOutside: function(e) {
       if ( this.active ) {
+        this.hidePrefPane();
         this.hide();
       }
     },
@@ -623,7 +679,7 @@
 
 
     // skin tone chooser
-    nodes.push('<section id="skinprefs"><div class="skinprefbox">');
+    nodes.push('<section id="skinprefs" class="skinprefs"><div class="skinprefbox">');
     nodes.push('<em><span class="emoji skinchooser" id="pref-base" data-pref=""></span></em><span class="prefseparator"></span>');
     for(var i =0; i < skintones.length ; i++) {
         nodes.push('<em><span class="emoji skinchooser" id="pref-'+i+'" data-pref="'+skintones[i]+'"></span></em>');
@@ -689,26 +745,22 @@
 
   function toUnicode(code) {
     var codes = code.split('-').map(function(value, index) {
-      return parseInt(value, 16);
+        if (value != "") {
+          return parseInt(value, 16);
+        }
+        else {
+          return null;
+        }
     });
+    
+    codes = codes.filter(function(v){
+        return v != null;
+    });
+    
     return String.fromCodePoint.apply(null, codes);
   }
   
-  function showPrefPane(emoji, emojiSpan) {
-    var os = $(emojiSpan).position();    
-    
-    $("#pref-base").data("shortcode",emoji.shortcode).html(getHtmlEntities(emoji.baseUnicode));
-    
-    for(var i = 0; i < skintones.length; i++) {
-        $("#pref-" + i).data("shortcode", emoji.shortcode).html(getHtmlEntities(emoji.baseUnicode + '-' + skintones[i]));
-    }
 
-    $("#skinprefs").css({
-        top: os.top-20,
-        left: os.left-100
-      }).fadeIn();
-
-  }
 
   function addToLocalStorage(emoji) {
     if(emoji==null) {

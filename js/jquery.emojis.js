@@ -694,7 +694,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F64C",
     "shortcode": "raised_hands",
     "description": "PERSON RAISING BOTH HANDS IN CELEBRATION",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -702,7 +702,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F44F",
     "shortcode": "clap",
     "description": "CLAPPING HANDS SIGN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -710,7 +710,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F44B",
     "shortcode": "wave",
     "description": "WAVING HAND SIGN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -719,7 +719,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F44D",
     "shortcode": "plus1",
     "description": "THUMBS UP SIGN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -760,7 +760,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F44C",
     "shortcode": "ok_hand",
     "description": "OK HAND SIGN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -768,7 +768,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "270B",
     "shortcode": "hand",
     "description": "RAISED HAND",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -776,15 +776,15 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F450",
     "shortcode": "open_hands",
     "description": "OPEN HANDS SIGN",
-    "skintones": false,
-    "category": "people"
+    "skintones": true,
+    "category": "true"
   },
   {
     "name": "muscle",
     "unicode": "1F4AA",
     "shortcode": "muscle",
     "description": "FLEXED BICEPS",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -792,7 +792,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F64F",
     "shortcode": "pray",
     "description": "PERSON WITH FOLDED HANDS",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -800,7 +800,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "261D-FE0F",
     "shortcode": "point_up",
     "description": "WHITE UP POINTING INDEX",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -808,7 +808,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F446",
     "shortcode": "point_up_2",
     "description": "WHITE UP POINTING BACKHAND INDEX",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -816,7 +816,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F447",
     "shortcode": "point_down",
     "description": "WHITE DOWN POINTING BACKHAND INDEX",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -824,7 +824,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F448",
     "shortcode": "point_left",
     "description": "WHITE LEFT POINTING BACKHAND INDEX",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -832,7 +832,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F449",
     "shortcode": "point_right",
     "description": "WHITE RIGHT POINTING BACKHAND INDEX",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -841,7 +841,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F595",
     "shortcode": "middle_finger",
     "description": "Reversed Hand With Middle Finger Extended",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -849,7 +849,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F590",
     "shortcode": "raised_hand_with_fingers_splayed",
     "description": "Raised Hand With Fingers Splayed",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -858,7 +858,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F918",
     "shortcode": "the_horns",
     "description": "Sign of the Horns",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -866,7 +866,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F596",
     "shortcode": "spock-hand",
     "description": "Raised Hand With Part Between Middle and Ring Fingers",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -874,7 +874,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "270D-FE0F",
     "shortcode": "writing_hand",
     "description": "Writing Hand",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -882,7 +882,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F485",
     "shortcode": "nail_care",
     "description": "NAIL POLISH",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -906,7 +906,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F442",
     "shortcode": "ear",
     "description": "EAR",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -914,7 +914,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F443",
     "shortcode": "nose",
     "description": "NOSE",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -962,7 +962,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F476",
     "shortcode": "baby",
     "description": "BABY",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -970,7 +970,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F466",
     "shortcode": "boy",
     "description": "BOY",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -978,7 +978,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F467",
     "shortcode": "girl",
     "description": "GIRL",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -986,7 +986,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F468",
     "shortcode": "man",
     "description": "MAN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -994,7 +994,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F469",
     "shortcode": "woman",
     "description": "WOMAN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1002,7 +1002,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F471",
     "shortcode": "person_with_blond_hair",
     "description": "PERSON WITH BLOND HAIR",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1010,7 +1010,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F474",
     "shortcode": "older_man",
     "description": "OLDER MAN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1018,7 +1018,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F475",
     "shortcode": "older_woman",
     "description": "OLDER WOMAN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1026,7 +1026,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F472",
     "shortcode": "man_with_gua_pi_mao",
     "description": "MAN WITH GUA PI MAO",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1034,7 +1034,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F473",
     "shortcode": "man_with_turban",
     "description": "MAN WITH TURBAN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1042,7 +1042,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F46E",
     "shortcode": "cop",
     "description": "POLICE OFFICER",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1050,7 +1050,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F477",
     "shortcode": "construction_worker",
     "description": "CONSTRUCTION WORKER",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1058,7 +1058,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F482",
     "shortcode": "guardsman",
     "description": "GUARDSMAN",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
@@ -1074,7 +1074,7 @@ $.fn.emojiChooser.emojis = [
     "unicode": "1F385",
     "shortcode": "santa",
     "description": "FATHER CHRISTMAS",
-    "skintones": false,
+    "skintones": true,
     "category": "people"
   },
   {
